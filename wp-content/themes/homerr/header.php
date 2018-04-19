@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" href="<?php echo site_url(); ?>/favicon.png">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 
     <title><?php the_title(); ?></title>
     <?php wp_head(); ?>
