@@ -1,0 +1,19 @@
+header.entry-header {
+    /* padding: 50px 0; */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 100%;
+    height: 577px;
+}
+.flexHeader {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.header-content {
+    max-width: 650px;
+}
+.header-content h1 {
+    font-size: 60px;
+}

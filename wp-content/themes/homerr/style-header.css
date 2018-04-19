@@ -5,7 +5,8 @@
     z-index: 1030;
 }
 .transparent-header {
-    background-color: transparent;
+    background-color: green;
+    opacity: 0.5;
 }
 .nav.navbar-nav.navbar-right > li:last-of-type a {
     background: transparent;
