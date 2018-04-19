@@ -1,4 +1,5 @@
-<?php if (has_post_thumbnail( $post->ID ) ): ?>
+<!--
+  <?php if (has_post_thumbnail( $post->ID ) ): ?>
   <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>  
   <header class="entry-header entry-header-background home-slider" style="background-image: url('<?php echo $image[0]; ?>')">
     <div class="container height-js">
@@ -33,3 +34,17 @@
     </div>
     <?php endif; ?>
   </header>
+-->
+
+<?php if (has_post_thumbnail( $post->ID ) ): ?>
+<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>  
+<header class="entry-header entry-header-background home-slider"
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/background.png')">
+  <div class="header-content">
+    <h1 class="entry-title white-big-title">De toekomst van pakketbezorging</h1>
+    <p class="white-small-title">One morning, when Gregor Samsa woke from troubled dreams,
+    he found himself transformed in his bed into a snail.</p>
+  </div>
+</header>
+ <?php endif; ?>
+ <!--todo handle no post_thumbnail -->
