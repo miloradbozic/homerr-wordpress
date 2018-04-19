@@ -5,8 +5,7 @@
     z-index: 1030;
 }
 .transparent-header {
-    background-color: green;
-    opacity: 0.5;
+    background-color: transparent;
 }
 .nav.navbar-nav.navbar-right > li:last-of-type a {
     background: transparent;
@@ -42,5 +41,16 @@
 @media (max-width: 1200px){
     .nav.navbar-nav.homeNetwerk > li:last-of-type a {
         padding-left: 0px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1335px;
+    }
+}
+@media (min-width: 992px) {
+    .main-content {
+        margin-top: -160px;
+        padding-top: 80px;
     }
 }
