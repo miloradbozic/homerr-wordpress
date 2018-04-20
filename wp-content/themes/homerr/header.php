@@ -40,6 +40,7 @@
     <!-- End Facebook Pixel Code -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-body-home.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
 
 <body>

@@ -55,5 +55,133 @@ header.entry-header {
     }
 }
 
-
 /*end of part one*/
+.section {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section .title {
+    color: #000000;
+    font-size: 48px;
+    font-weight: normal;
+    max-width: 30%;
+    margin: 0px auto;
+}
+
+.section .sub-title {
+    font-size: 30px;
+}
+
+.section .emphasized{
+    font-weight: bold;
+}
+
+.section .emphasized-alternate{
+    color: #37b89f;
+}
+
+.section .content {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container .image {
+    position: relative;
+}
+
+.image-container .image img {
+    width: 100%;
+}
+
+.image-container .image-title {
+    color: white; font-size: 32px; font-weight: bold; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.image-container .overlay {
+    background-image: linear-gradient(to bottom right,#3d314a,#80ffe7);
+    opacity: .7; 
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 1;
+}
+
+.image-container .image-description {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn-default {
+    border: 3px solid #36b89f;
+    color: #36b89f;
+    border-radius: 10px;
+    width:  200px;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* end of part two*/
+
+.map-section {
+	background: url("images/home/home_city_bg.png") no-repeat center;
+	background-size: cover;
+	/*Added DM*/
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.map-section .row-distanced {
+    margin-top: 40px;
+}
+
+.map-section .map-content {
+    width: 36%;
+    margin: 0px auto;
+}
+
+.map-section .link {
+    color: #37b89f;
+    cursor: pointer;
+}
+
+.map-section .overlay-top {
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
+    bottom: 70%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.map-section .overlay-bottom {
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
+    top: 70%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
