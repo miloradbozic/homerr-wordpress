@@ -60,11 +60,27 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
   <span>ene meld ja ann als Homerr</span>
   </div>
   <div class="wrapAppImages">
-    <a class="ios"
-style="display: block; background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png'); height: 60px; background-repeat: no-repeat"></a>
-    <div class="android"
-style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></div>
+    <a class="ios mobile"
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png')"></a>
+    <a class="android mobile"
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></a>
   </div>
 </div>
+<!-- <div class="col-md-3"></div>
+<div class="col-md-6">
+  <div class="col-md-12">
+    <div class="col-md-12"><span>Download once gratis app</span></div>
+    <div class="col-md-12"><span>ene meld ja ann als Homerr</span></div>
+    <div class="col-md-6">
+      <a class="ios mobile"
+      style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png')"></a>
+    </div>
+    <div class="col-md-6">
+      <a class="android mobile"
+      style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3"></div> -->
  <?php endif; ?>
  <!--todo handle no post_thumbnail -->
