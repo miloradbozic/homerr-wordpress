@@ -4,15 +4,55 @@ header.entry-header {
     background-position: center;
     display: table;
     width: 100%;
-    height: 577px;
+    height: 720px;
 }
 .header-content {
-    margin-top: 210px;
-    margin-left: -20px;
+    margin-top: 265px;
+    /* margin-left: -20px; */
     max-width: 650px;
 }
 .header-content h1 {
     font-size: 60px;
+}
+.phoneDiv {
+    height: 700px;
+    width: 400px;
+    margin-top: -410px;
+    margin-left: 59%;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+.wrapDivApps span{
+    color: black;
+    font-family: "Seravek";
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrapDivApps .wrapText{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .phoneDiv {
+        display: none;
+    }
 }
 
 

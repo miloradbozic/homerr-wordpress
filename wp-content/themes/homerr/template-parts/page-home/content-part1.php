@@ -42,13 +42,29 @@
 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/home-image-1.png')">
   <!-- <div class="flexHeader"> -->
     <div class="container">
-    <div class="header-content">
-      <h1 class="entry-title white-big-title">De toekomst van pakketbezorging</h1>
-      <p class="white-small-title">One morning, when Gregor Samsa woke from troubled dreams,
-      he found himself transformed in his bed into a snail.</p>
-    </div>
+      <div class="header-content">
+        <h1 class="entry-title white-big-title">De toekomst van pakketbezorging</h1>
+        <p class="white-small-title">One morning, when Gregor Samsa woke from troubled dreams,
+        he found himself transformed in his bed into a snail.</p>
+      </div>
+      <div class="phoneDiv"
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/phone.png')"></div>
     </div>
   <!-- </div> -->
 </header>
+<div class="wrapDivApps">
+  <div class="wrapText">
+  <span>
+    Download once gratis app
+  </span>
+  <span>ene meld ja ann als Homerr</span>
+  </div>
+  <div class="wrapAppImages">
+    <a class="ios"
+style="display: block; background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png'); height: 60px; background-repeat: no-repeat"></a>
+    <div class="android"
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></div>
+  </div>
+</div>
  <?php endif; ?>
  <!--todo handle no post_thumbnail -->

@@ -5,7 +5,7 @@
     z-index: 1030;
 }
 .transparent-header {
-    background-color: transparent;
+    background-color: #34878A;
 }
 .nav.navbar-nav.navbar-right > li:last-of-type a {
     background: transparent;
@@ -23,6 +23,9 @@
     margin-top: 7px;
     border: 1px solid;
 }  
+.homeNetwerk li:first-child {
+    display: none;
+}
 .nav.navbar-nav.fR > li:last-of-type a:hover {
     color: #398d8f;
 }
@@ -37,7 +40,6 @@
     border-width: 0 0 0px;
 }
 
-
 @media (max-width: 1200px){
     .nav.navbar-nav.homeNetwerk > li:last-of-type a {
         padding-left: 0px;
@@ -45,12 +47,13 @@
 }
 @media (min-width: 1200px) {
     .container {
-        width: 1335px;
+        width: 88%;
     }
 }
+.main-content {
+    margin-top: -160px;
+    padding-top: 80px;
+}
 @media (min-width: 992px) {
-    .main-content {
-        margin-top: -160px;
-        padding-top: 80px;
-    }
+    
 }
