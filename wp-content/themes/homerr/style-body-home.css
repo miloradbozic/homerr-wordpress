@@ -185,3 +185,9 @@ header.entry-header {
     bottom: 0;
     z-index: 1;
 }
+
+/* end of part three */
+
+.slider-section .title {
+    max-width: 36%;
+}
