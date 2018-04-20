@@ -25,7 +25,7 @@
     left: 0;
     top: 50%;
     width: 100%;
-    height: 1px;
+    height: 3px;
     opacity: .5;
 }
 
@@ -63,15 +63,16 @@ div.company-logo-single > .ups {
 .footer-icons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-copyright {
     background-color: black;
     color: white;
     height: 68px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
     text-align: center;
     font-size: 20px;
 }
@@ -104,12 +105,16 @@ div.company-logo-single > .ups {
 .download-app {
     width: 280px;
     height: 90px;
-    padding-left: 5px;
-    padding-right: 5px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
 }
-
 .companies-logo-wrapper {
     padding-bottom: 20px;
+    opacity: 0.4;
+}
+
+#footer {
+    min-height: 600px;
 }
 
 #footer h3.widget-title {
@@ -120,4 +125,68 @@ div.company-logo-single > .ups {
     float: none;
     display: table-cell;
     vertical-align: bottom;
+}
+.colorTextGreen {
+    color: #37b89f;
+}
+#footer .widget-title {
+    margin-top: 5px;
+    color: #37b89f;
+}
+/* .download-app-ios {
+    margin-right: 15px;
+}
+.download-app-android {
+    margin-left: 15px;
+} */
+.spaceBetween {
+    height: 30px;
+    width: 30px;
+}
+#footer, .navbar-default {
+    /* background-color: #fff; */
+    border-color: #fdfdfd;
+}
+.translateImages {
+    position: relative;
+    bottom: 50px;
+}
+.translateImages div {
+    float: right;
+    width: 150px;
+}
+.textFooter h3 {
+    font-size: 36px;
+}
+#footer .textwidget {
+    font-size: 24px;
+}
+.textFooter li {
+    font-size: 24px;
+}
+#footer .facebook-icon img, #footer .twitter-icon img {
+    max-width: 50px;
+    margin-right: 20px;
+}
+#footer .social-icons {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.iconsFlag {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.iconEngland {
+    margin-top: -3px
+}
+.footer-copyright span {
+    color: white;
+}
+.footer-copyright div {
+    padding-top: 20px;
+}
+@media (max-width: 636px) {
+    .spaceBetween {
+        width: 100%;
+    }
 }

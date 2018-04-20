@@ -83,13 +83,16 @@ header.entry-header {
 .wrapAppImages a {
     width: 200px;
 }
-.wrapAppImages .ios {
+/* .wrapAppImages .ios {
     margin-right: 20px;
 }
 .wrapAppImages .android {
     margin-left: 20px;
+} */
+.firstSpaceBetween {
+    width: 40px;
+    height: 40px;
 }
-
 .mobile {
     display: block;
     height: 60px; 
@@ -99,6 +102,16 @@ header.entry-header {
 @media (max-width: 1200px) {
     .phoneDiv {
         display: none;
+    }
+    .header-content h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 487px) {
+    .firstSpaceBetween {
+        width: 20px;
+        height: 20px;
+        width: 100%;
     }
 }
 

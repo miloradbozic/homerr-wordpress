@@ -60,9 +60,10 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
   <span>ene meld ja ann als Homerr</span>
   </div>
   <div class="wrapAppImages">
-    <a class="ios mobile"
+    <a class="ios mobile" href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8"
 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png')"></a>
-    <a class="android mobile"
+<div class="firstSpaceBetween"></div>
+    <a class="android mobile" href="https://play.google.com/store/apps/details?id=com.homerr.app"
 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></a>
   </div>
 </div>
