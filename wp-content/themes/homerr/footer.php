@@ -40,54 +40,79 @@
         
     </div>
     <div class="before-footer-wrapper">
-        <h1 class="section-title services-section-title footer-title"><span>Meld</span> je vandaag nog <br/ >aan voor <span>HomerrM</span></h1>
+        <h1 class="section-title services-section-title footer-title colorTextGreen"><span>Meld</span> je vandaag nog <br/ >aan voor <span>HomerrM</span></h1>
     </div>
     <div class="before-footer-wrapper">
-        <div class=container>
+        <!-- <div class=container> -->
             <div class="app-icons-campaign footer-icons">
-                <div class="col-xs-4 download-app">
-                    <a href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8">
-                        <img src="http://homerr.nl/wp-content/themes/homerr/images/app_store.png" />
+                <div class="download-app download-app-ios">
+                    <a class="" href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8">
+                        <!-- <img src="http://homerr.nl/wp-content/themes/homerr/images/app_store.png" /> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png" alt="Smiley face" height="90" width="280">
                     </a>
                 </div>
-                <div class="col-xs-4 download-app">
-                    <a href="https://play.google.com/store/apps/details?id=com.homerr.app">
-                        <img src="http://homerr.nl/wp-content/themes/homerr/images/google_play.png" />
+                <div class="spaceBetween"></div>
+                <div class=" download-app download-app-android">
+                    <a class="" href="https://play.google.com/store/apps/details?id=com.homerr.app">
+                        <!-- <img src="http://homerr.nl/wp-content/themes/homerr/images/google_play.png" /> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/android_button.png" alt="Smiley face" height="90" width="280">
                     </a>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
     <div id="footer" class="footer-parent">
         <div class="footer-row">
-            <div class="row">
-                <div id="footer-sidebar1" class="col-xs-6 col-sm-2">
-                <?php
-                    if( is_active_sidebar( 'footer-sidebar-1' ) ) {
-                        dynamic_sidebar( 'footer-sidebar-1' );
-                    }
-                ?>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/facebook-icon.svg" alt=""></a>
-                    <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/twitter-icon.svg" alt=""></a>
+            <div class="row contatSitemap">
+                <div class="coll-md-1"></div>
+                <div class="coll-md-10">
+                    <div id="footer-sidebar1" class="col-md-3 textFooter">
+                        <?php
+                            if( is_active_sidebar( 'footer-sidebar-1' ) ) {
+                                dynamic_sidebar( 'footer-sidebar-1' );
+                            }
+                        ?>
+                        <div class="social-icons socialIcons">
+                            <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/fb-icon.png" width="30" height="40" alt=""></a>
+                            <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/tw-icon.png" width="80" height="40" alt=""></a>
+                        </div>
+                    </div>
+                    <div id="footer-sidebar2" class="col-md-3 textFooter">
+                        <?php
+                            if( is_active_sidebar( 'footer-sidebar-2' ) ) {
+                                dynamic_sidebar( 'footer-sidebar-2' );
+                            }
+                        ?>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <!-- <img src="<?php echo get_template_directory_uri()?>/images/holland-flag.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" /> -->
+                    </div>
                 </div>
-                </div>
-                <div id="footer-sidebar2" class="col-xs-6 col-sm-2">
-                <?php
-                    if( is_active_sidebar( 'footer-sidebar-2' ) ) {
-                        dynamic_sidebar( 'footer-sidebar-2' );
-                    }
-                ?>
-                </div>
-                <div class="col-xs-12 col-sm-8">
+                <div class="coll-md-1"></div>
+            </div>
+        </div>
+        <!-- <div class="translateImages">
+            <div>
+                <img src="<?php echo get_template_directory_uri()?>/images/holland-flag.png" alt="" />
+                <img src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" />
+            </div>
+        </div> -->
+        <div class="col-md-12 iconsFlag">
+            <div class="col-md-10"></div>
+            <div class="col-md-2">
+                <div class="col-xs-6">
                     <img src="<?php echo get_template_directory_uri()?>/images/holland-flag.png" alt="" />
-                    <img src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" />
                 </div>
+                <div class="col-xs-6">
+                    <img class="iconEngland" src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" />
+                </div>    
             </div>
         </div>
     </div>
     <div class="footer-copyright text-center">
-        <b>Copyright Nucleus Group</b>
+        <div><span>Copyright Nucleus Group</span></div>
     </div>
 	<?php } ?>
     <?php wp_footer(); ?>
