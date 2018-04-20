@@ -104,20 +104,25 @@ header.entry-header {
 
 /*end of part one*/
 .section {
-    text-align: center;
     margin-bottom: 60px;
 }
 
-.section .title {
+.section .heading {
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto;
+}
+
+.section .heading .title {
     color: #000000;
     font-size: 48px;
     font-weight: normal;
-    max-width: 30%;
     margin: 0px auto;
 }
 
 .section .sub-title {
     font-size: 30px;
+    text-align: center;
 }
 
 .section .emphasized{
@@ -128,10 +133,12 @@ header.entry-header {
     color: #37b89f;
 }
 
+/*
 .section .content {
     width: 60%;
     margin: 0px auto;
 }
+*/
 
 .image-container {
     position: relative;
@@ -148,7 +155,10 @@ header.entry-header {
 }
 
 .image-container .image-title {
-    color: white; font-size: 32px; font-weight: bold; position: absolute;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -171,6 +181,53 @@ header.entry-header {
     margin: 0px auto;
     margin-top: 20px;
     font-size: 18px;
+}
+
+.image-container2 {
+    display: flex;
+    flex-wrap: wrap; }
+
+.image-container2 .image-item {
+    width: 24%;
+    margin-right:1%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2dcdc;
+}
+
+.image-container2 .image-item img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container2 .image-item .image-text {
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.image-container2 .image-item .description {
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+}
+
+.image-container2 .flex-image {
+    flex: 1 0 auto; 
+}
+
+@media screen and (max-width: 992px) {
+    .image-container2 .image-item {
+        width: 48%;
+        margin-right:2%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .image-container2 .image-item {
+        width: 96%;
+        margin-right: 4%;
+    }
 }
 
 .btn-default {
@@ -199,12 +256,24 @@ header.entry-header {
     z-index: 3;
 }
 
+.map-section .heading {
+    width: 32%
+}
 .map-section .row-distanced {
     margin-top: 40px;
 }
 
-.map-section .map-content {
+.map-section .map-panel {
     width: 36%;
+    margin: 0px auto;
+}
+
+.map-section .map-panel .part{
+    text-align: center;
+}
+
+.map-section .map-panel .part .content{
+    width: 70%;
     margin: 0px auto;
 }
 
@@ -234,7 +303,3 @@ header.entry-header {
 }
 
 /* end of part three */
-
-.slider-section .title {
-    max-width: 36%;
-}

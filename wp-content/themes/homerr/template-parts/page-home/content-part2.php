@@ -1,6 +1,8 @@
 <div class="section">
-    <h1 class="title"><span class="emphasized">Wat</span> is <span class="emphasized emphasized-alternate">Hommer</span></h1>
-    <div class="content">
+    <div class="heading">
+        <h1 class="title"><span class="emphasized">Wat</span> is <span class="emphasized emphasized-alternate">Hommer</span></h1>
+        <div class="content">
+    </div>
     Ons sociale netwerk bestaat uit Homerrs en HomerrPoints.
     Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen.
     HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker
