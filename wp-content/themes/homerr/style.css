@@ -312,6 +312,7 @@ a.home-slider-button {
 
 .white-big-title,
 .white-big-title-retailer {
+	text-transform: uppercase;
 	font-family: "Seravek";
 	font-weight: 700;
 	font-size: 35px;
