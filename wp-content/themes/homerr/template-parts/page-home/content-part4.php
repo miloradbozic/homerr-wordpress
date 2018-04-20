@@ -86,5 +86,15 @@
         </div>
         -->
     </div>
-    <div class="overlay"></div>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="slider-btn-left"></div>
+            <div class="slider-link active"></div>
+            <div class="slider-link"></div>
+            <div class="slider-link"></div>
+            <div class="slider-btn-right"></div>
+        </div>
+        <div class="slider-text"></div>
+    </div>
+
 </div>
