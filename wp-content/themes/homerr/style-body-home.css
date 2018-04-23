@@ -305,6 +305,23 @@ header.entry-header {
 
 /* end of part three */
 
+.slider-wrapper .slider-btn-left {
+    background: url("images/home/left-arrow.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+}
+
+.slider-wrapper .slider-btn-right {
+    background: url("images/home/right-arrow.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+}
+
+.slider-wrapper .slider-link {
+    background: url("images/home/slider-button-unselected.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+}
 /*media screan part*/
 @media (max-width: 1200px) {
     .phoneDiv {
