@@ -1,0 +1,336 @@
+body {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+header.entry-header {
+    /* padding: 50px 0; */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 100%;
+    height: 720px;
+}
+.header-content {
+    margin-top: 265px;
+    /* margin-left: -20px; */
+    max-width: 650px;
+}
+.header-content h1 {
+    font-size: 60px;
+}
+.phoneDiv {
+    height: 720px;
+    width: 400px;
+    margin-top: -410px;
+    margin-left: 59%;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+.wrapDivApps {
+    margin-top: -70px;
+}
+.wrapDivApps span{
+    color: black;
+    font-family: "Seravek";
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrapDivApps .wrapText{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrapAppImages {
+    /* display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrapAppImages a {
+    width: 200px;
+}
+/* .wrapAppImages .ios {
+    margin-right: 20px;
+}
+.wrapAppImages .android {
+    margin-left: 20px;
+} */
+.firstSpaceBetween {
+    width: 40px;
+    height: 40px;
+}
+.mobile {
+    display: block;
+    height: 60px; 
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) {
+    .phoneDiv {
+        display: none;
+    }
+    .header-content h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 487px) {
+    .firstSpaceBetween {
+        width: 20px;
+        height: 20px;
+        width: 100%;
+    }
+}
+
+/*end of part one*/
+.section {
+    margin-bottom: 60px;
+}
+
+.section .heading {
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto;
+}
+
+.section .heading .title {
+    color: #000000;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0px auto;
+}
+
+.section .sub-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.section .emphasized{
+    font-weight: bold;
+}
+
+.section .emphasized-alternate{
+    color: #37b89f;
+}
+
+/*
+.section .content {
+    width: 60%;
+    margin: 0px auto;
+}
+*/
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container .image {
+    position: relative;
+}
+
+.image-container .image img {
+    width: 100%;
+}
+
+.image-container .image-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.image-container .overlay {
+    background-image: linear-gradient(to bottom right,#3d314a,#80ffe7);
+    opacity: .7; 
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 1;
+}
+
+.image-container .image-description {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.image-container2 {
+    display: flex;
+    flex-wrap: wrap; }
+
+.image-container2 .image-item {
+    width: 24%;
+    margin-right:1%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2dcdc;
+}
+
+.image-container2 .image-item img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container2 .image-item .image-text {
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.image-container2 .image-item .description {
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+}
+
+.image-container2 .flex-image {
+    flex: 1 0 auto; 
+}
+
+@media screen and (max-width: 992px) {
+    .image-container2 .image-item {
+        width: 48%;
+        margin-right:2%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .image-container2 .image-item {
+        width: 96%;
+        margin-right: 4%;
+    }
+}
+
+.btn-default {
+    border: 3px solid #36b89f;
+    color: #36b89f;
+    border-radius: 10px;
+    width:  200px;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* end of part two*/
+
+.map-section {
+	background: url("images/home/home_city_bg.png") no-repeat center;
+	background-size: cover;
+	/*Added DM*/
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.map-section .heading {
+    width: 32%
+}
+.map-section .row-distanced {
+    margin-top: 40px;
+}
+
+.map-section .map-panel {
+    width: 36%;
+    margin: 0px auto;
+}
+
+.map-section .map-panel .part{
+    text-align: center;
+}
+
+.map-section .map-panel .part .content{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.map-section .link {
+    color: #37b89f;
+    cursor: pointer;
+}
+
+.map-section .overlay-top {
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
+    bottom: 70%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.map-section .overlay-bottom {
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
+    top: 70%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* end of part three */
+
+.slider-wrapper .slider-btn-left {
+    background: url("images/home/left-arrow.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+}
+
+.slider-wrapper .slider-btn-right {
+    background: url("images/home/right-arrow.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+}
+
+.slider-wrapper .slider-link {
+    background: url("images/home/slider-button-unselected.png) no-repeat center;
+    width: 30px;
+    height: 30px;
+}

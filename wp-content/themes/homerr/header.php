@@ -38,8 +38,17 @@
       src="https://www.facebook.com/tr?id=1682710452043162&ev=PageView&noscript=1"
       /></noscript>
     <!-- End Facebook Pixel Code -->
+    <?php
+      $post = $wp_query->post;
+    ?>
+
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-body-home.css">
+    <?php if ($post->ID == 15): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-body-home.css">
+    <?php elseif ($post->ID == 1137): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-ons-netwerk.css">
+    <?php endif; ?>
+
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
 
