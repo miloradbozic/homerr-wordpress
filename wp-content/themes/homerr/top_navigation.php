@@ -14,7 +14,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/images/header-images/logo.png' ?>"/></a>
+      <a class="navbar-brand imgHeader" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/images/header-images/logo.png' ?>"/></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <?php if( !empty( $top_left_menu_items ) ) : ?>

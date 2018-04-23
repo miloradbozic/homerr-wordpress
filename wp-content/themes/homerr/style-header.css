@@ -4,6 +4,9 @@
     left: 0;
     z-index: 1030;
 }
+.imgHeader {
+    padding-top: 7px;
+}
 .transparent-header {
     background-color: #4e726a;
 }

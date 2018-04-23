@@ -1,11 +1,12 @@
 <div class="section">
     <div class="heading">
         <h1 class="title"><span class="emphasized">Wat</span> is <span class="emphasized emphasized-alternate">Hommer</span></h1>
-        <div class="content">
+        <div class="content">Ons sociale netwerk bestaat uit Homerrs en HomerrPoints.
+            Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen.
+            HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker
+        </div>
     </div>
-    Ons sociale netwerk bestaat uit Homerrs en HomerrPoints.
-    Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen.
-    HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker
+    
     </div>
     <div class="row">
         <div class="col-md-4">
@@ -39,7 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="row" style="margin-top: 60px;">
+    <div class="row wrapVraagInformationBtn" style="margin-top: 60px;">
         <a class="btn-default">Vraag informatie aan</a>
     </div>
 </div>
