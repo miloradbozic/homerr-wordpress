@@ -50,7 +50,7 @@ div.company-logo-single > .ups {
 
 .company-logos-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .company-dhl {
@@ -112,7 +112,9 @@ div.company-logo-single > .ups {
     padding-bottom: 20px;
     opacity: 0.4;
 }
-
+.col-xs-5ths:first-child { 
+    max-width: 100px;
+}
 #footer {
     min-height: 600px;
 }

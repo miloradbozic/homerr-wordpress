@@ -78,24 +78,9 @@
     height: 60px; 
     background-repeat: no-repeat;
 }
-.section .heading .title {
-    color: #000000;
-    font-size: 48px;
-    font-weight: normal;
-    margin: 0px auto;
-}
 
 /*end of part one*/
-.section {
-    margin-bottom: 60px;
-}
 
-.section .heading {
-    text-align: center;
-    max-width: 50%;
-    margin: 0px auto;
-    margin-top: 120px;
-}
 .section .content {
     font-size: 18px;
     padding-top: 40px;
@@ -106,13 +91,7 @@
     text-align: center;
 }
 
-.section .emphasized{
-    font-weight: bold;
-}
 
-.section .emphasized-alternate{
-    color: #37b89f;
-}
 
 /*
 .section .content {
@@ -196,21 +175,6 @@
 
 .image-container2 .flex-image {
     flex: 1 0 auto; 
-}
-.wrapVraagInformationBtn {
-    display: flex;
-    justify-content: center;
-}
-.btn-default {
-    border: 3px solid #36b89f;
-    color: #36b89f;
-    border-radius: 10px;
-    width:  321px;
-    height: 87px;
-    text-align: center;
-    padding: 27px;
-    font-size: 18px;
-    cursor: pointer;
 }
 
 /* end of part two*/
