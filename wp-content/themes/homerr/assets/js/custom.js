@@ -85,10 +85,30 @@ $( document ).ready( function() {
   });
 
   //multi slider
-  console.log("enabling slider");
+  var activeSlide = 1;
   $('#mixedSlider').multislider({
     duration: 750,
-    interval: false
+    interval: false,
+    slideAll: true
+  });
+
+  function showSlideView(number) {
+    $('#mixedSlider').multislider(['showSlideView', number])
+  }
+
+  $(".slider-link").click(function() {
+    $(".slider-link").removeClass("active");
+    $(this).addClass("active");
+    showSlideView($(this).data("id"));
+  });
+
+  $(".slider-btn-right").click(function() {
+    var activeLink = $(".slider").find(".active");
+    var data = activeClass.data("id")
+    activeLink.removeClass("active").next().addClass("active")
+  });
+  $(".slider-btn-left").click(function() {
+
   });
 
   //Collapse navbar if click on mobile

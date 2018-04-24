@@ -21,7 +21,7 @@
 
         // === DETERMINE ACTION ====
         // string = method | object or nothing is to initialize
-        if(typeof data === 'string'){
+        if(typeof data === 'string' || data instanceof Array){
             getStringArgs(data);
             return $multislider;
         } else if (typeof data === 'object' || typeof data  ==='undefined'){
@@ -86,7 +86,10 @@
 
         // used if method is called after initialization
         function getStringArgs(str){
-            if (typeof $multislider.data(str) !== 'undefined'){
+            if (str instanceof Array) {
+                $multislider.data(str[0])(str[1]);
+            }
+            else if (typeof $multislider.data(str) !== 'undefined'){
                 $multislider.data(str)();
             } else {
                 console.error("Multislider currently only accepts the following methods: next, prev, pause, play")
@@ -103,6 +106,7 @@
                 "nextAll":function(){ overRidePause(allLeft); },
                 "prev":function(){ overRidePause(singleRight); },
                 "prevAll":function(){ overRidePause(allRight); },
+                "showSlideView":function(slideView){ showSlideView(slideView); },
                 "settings":settings
             });
         }
@@ -247,8 +251,9 @@
         }
 
         // determine how many slides need to be moved over, if slideAll is true
-        function calcNumSlidesToMove(){
-            totalWidth = $msContent.width();						          // total width of .MS-content containing all visible slides
+        function calcNumSlidesToMove(multiplier){
+            multiplier = typeof multiplier !== 'undefined' ? multiplier : 1;
+            totalWidth = $msContent.width() * multiplier;						          // total width of .MS-content containing all visible slides
 		    numberVisibleSlides = Math.round(totalWidth/animateDistance);     // number of (visible) slides needed to be moved in each animation
         }
 
@@ -274,10 +279,20 @@
             });
         }
 
-        function allLeft(){
+        var activeSlideView = 1;
+
+        function allLeft(numberOfSlides) {
+            console.log(numberOfSlides, activeSlideView);
+            numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
+            activeSlideView +=numberOfSlides;
+            if (activeSlideView > 3) {
+                activeSlideView %=3;
+            }
+            console.log("after", numberOfSlides, activeSlideView);
+
             isItAnimating(function(){
                 reTargetSlides();
-                calcNumSlidesToMove();
+                calcNumSlidesToMove(numberOfSlides);
 
                 var $clonedItemSet = $msContent.children('.item').clone();
                 var filteredClones = $clonedItemSet.splice(0, numberVisibleSlides);
@@ -297,10 +312,17 @@
             });
         }
 
-        function allRight() {
+        function allRight(numberOfSlides) {
+            numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
+            activeSlideView -=numberOfSlides;
+            if (activeSlideView < 1) {
+                activeSlideView %= 3;
+                console.log("after moduo ", activeSlideView)
+            }
+
             isItAnimating(function(){
                 reTargetSlides();
-                calcNumSlidesToMove();
+                calcNumSlidesToMove(numberOfSlides);
 
                 var numberTotalSlides = $msContent.children('.item').length;
                 var $clonedItemSet = $msContent.children('.item').clone();
@@ -326,6 +348,18 @@
                     }
                 );
             });
+        }
+
+        activeSlideView = 1;
+        function showSlideView(slideView) {
+            console.log("active: " + activeSlideView, "goto: " + slideView)
+            if (slideView > activeSlideView) {
+                console.log("all left")
+                allLeft(slideView - activeSlideView);
+            } else if (slideView < activeSlideView) {
+                console.log("all right")
+                allRight(activeSlideView - slideView);
+            }
         }
 
         function singleLeft(){

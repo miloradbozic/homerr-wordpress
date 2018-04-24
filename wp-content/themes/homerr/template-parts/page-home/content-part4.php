@@ -6,11 +6,14 @@
 #mixedSlider .MS-content {
   white-space: nowrap;
   overflow: hidden;
+  /*
   display: flex;
   flex-wrap: wrap;
+  */
 }
 #mixedSlider .MS-content .item {
-  display: flex;
+  /*display: flex;*/
+  display: inline-block;
   flex-direction: column;
   height: auto;
   width: 24%;
@@ -34,6 +37,7 @@
 }
 #mixedSlider .description {
   margin-left: 20px;
+  height: 80px;
 }
 #mixedSlider .MS-content .item .imgTitle img {
   height: auto;
@@ -100,14 +104,14 @@
 }
 */
 
-@media screen and (max-width: 992px) {
-  .#mixedSlider .MS-content .item {
+@media (max-width: 992px) {
+  #mixedSlider .MS-content .item {
       width: 48%;
       margin-left:2%;
   }
 }
 @media (max-width: 600px) {
-  .#mixedSlider .MS-content .item  {
+  #mixedSlider .MS-content .item {
       width: 96%;
       margin-left: 4%;
   }
@@ -120,47 +124,6 @@
         <span class="emphasized emphasized-alternate">Homerr</span></h1>
     </div>
 
-    <div class="slider-content">
-        <div class="image-container2">
-            <div class="image-item">
-                    <div class="flex-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-1.png" alt="" />
-                    </div>
-                    <div class="image-title">
-                        <span>Tonnie & co</span>
-                        <div class="description">"Door <span class="emphasized emphasized-alternate">Homerr</span> ben ik nu miljonair"</div>
-                    </div>
-            </div>
-            <div class="image-item">
-                    <div class="flex-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-2.png" alt="" />
-                    </div>
-                    <div class="image-title">
-                        <span>Langendijk</span>
-                        <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"
-                    </div>
-                </div>
-            </div>
-            <div class="image-item">
-                    <div class="flex-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-3.png" alt="" />
-                    </div>
-                    <div class="image-title">Delicious store</div>
-                    <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
-                </div>
-            <div class="image-item">
-                    <div class="flex-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-4.png" alt="" />
-                    </div>
-                    <div class="image-title">Elegance</div>
-                    <div class="description">"Gelijk even een wasje draaien terwijl je je pakketje op komt halen, door <span class="emphasized emphasized-alternate">Homerr</span> heb ik veel meer klanten"</div>
-                
-            </div>
-        </div>
-    </div>
-
-    <p style="margin: 100px;">asdasdadadda</p>
-
     <div id="mixedSlider">
         <div class="MS-content">
             <div class="item">
@@ -169,7 +132,6 @@
                 </div>
                 <h2 class="blogTitle">Tonnie & co</h2>
                 <div class="description">"Door <span class="emphasized emphasized-alternate">Homerr</span> ben ik nu miljonair"</div>
-                  
             </div>
             <div class="item">
                 <div class="imgTitle">
@@ -177,7 +139,6 @@
                 </div>
                 <h2 class="blogTitle">Langendijk</h2>
                 <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
-               
             </div>
             <div class="item">
                 <div class="imgTitle">
@@ -193,14 +154,71 @@
                 <h2 class="blogTitle">Elegance</h2>
                 <div class="description">"Gelijk even een wasje draaien terwijl je je pakketje op komt halen, door <span class="emphasized emphasized-alternate">Homerr</span> heb ik veel meer klanten"</div>
             </div>
-            
+
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-1.png" alt="" />
+                </div>
+                <h2 class="blogTitle">2. Tonnie & co</h2>
+                <div class="description">"Door <span class="emphasized emphasized-alternate">Homerr</span> ben ik nu miljonair"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-2.png" alt="" />
+                </div>
+                <h2 class="blogTitle">2. Langendijk</h2>
+                <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-3.png" alt="" />
+                </div>
+                <h2 class="blogTitle">2. Delicious store</h2>
+                <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-4.png" alt="" />
+                </div>
+                <h2 class="blogTitle">2. Elegance</h2>
+                <div class="description">"Gelijk even een wasje draaien terwijl je je pakketje op komt halen, door <span class="emphasized emphasized-alternate">Homerr</span> heb ik veel meer klanten"</div>
+            </div>
+
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-1.png" alt="" />
+                </div>
+                <h2 class="blogTitle">3. Tonnie & co</h2>
+                <div class="description">"Door <span class="emphasized emphasized-alternate">Homerr</span> ben ik nu miljonair"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-2.png" alt="" />
+                </div>
+                <h2 class="blogTitle">3. Langendijk</h2>
+                <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-3.png" alt="" />
+                </div>
+                <h2 class="blogTitle">3. Delicious store</h2>
+                <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
+            </div>
+            <div class="item">
+                <div class="imgTitle">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-4.png" alt="" />
+                </div>
+                <h2 class="blogTitle">3. Elegance</h2>
+                <div class="description">"Gelijk even een wasje draaien terwijl je je pakketje op komt halen, door <span class="emphasized emphasized-alternate">Homerr</span> heb ik veel meer klanten"</div>
+            </div>
         </div>
         <div class="slider-wrapper">
             <div class="slider">
                 <button class="slider-btn-left MS-left"></button>
-                <div class="slider-link active"></div>
-                <div class="slider-link"></div>
-                <div class="slider-link"></div>
+                <div class="slider-link active" data-id="1" click="showSlideView(1)"></div>
+                <div class="slider-link" data-id="2" click="showSlideView(2)"></div>
+                <div class="slider-link" data-id="3" click="showSlideView(3)"></div>
                 <button class="slider-btn-right MS-right"></button>
             </div>
             <div class="slider-text">
