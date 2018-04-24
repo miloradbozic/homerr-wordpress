@@ -38,10 +38,11 @@
       src="https://www.facebook.com/tr?id=1682710452043162&ev=PageView&noscript=1"
       /></noscript>
     <!-- End Facebook Pixel Code -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php
       $post = $wp_query->post;
     ?>
-
+    
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/shared.css">
     <?php if ($post->ID == 15): ?>
@@ -49,7 +50,6 @@
     <?php elseif ($post->ID == 1137): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-ons-netwerk.css">
     <?php endif; ?>
-
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
 

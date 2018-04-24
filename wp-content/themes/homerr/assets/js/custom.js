@@ -84,6 +84,13 @@ $( document ).ready( function() {
     spaceBetween: 30
   });
 
+  //multi slider
+  console.log("enabling slider");
+  $('#mixedSlider').multislider({
+    duration: 750,
+    interval: false
+  });
+
   //Collapse navbar if click on mobile
   $('.nav a').click(function(){
     $('.collapse').collapse('hide');
