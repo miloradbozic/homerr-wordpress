@@ -80,7 +80,15 @@ header.entry-header {
 .nav.navbar-nav.navbar-right > li:last-of-type a.active {
     border-bottom: 1px solid white;
 }
-
+@media (min-width: 992px) {
+    .how-work-word-homerr .how-work-list-description #home-slider > .container, header.home-slider > .container {
+        background: transparent;
+        background-repeat: repeat-y;
+        background-size: 100%;
+        /* position: relative; */
+        /* display: none; */
+    }
+}
 @media (max-width: 1200px) {
     .header-content h1 {
         font-size: 26px;

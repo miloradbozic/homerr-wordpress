@@ -99,8 +99,8 @@
                 <img src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" />
             </div>
         </div> -->
-        <div class="col-md-12 iconsFlag">
-            <div class="col-md-10"></div>
+        <!-- <div class="col-md-12 iconsFlag"> -->
+            <!-- <div class="col-md-10"></div>
             <div class="col-md-2">
                 <div class="col-xs-6">
                     <img src="<?php echo get_template_directory_uri()?>/images/holland-flag.png" alt="" />
@@ -108,13 +108,14 @@
                 <div class="col-xs-6">
                     <img class="iconEngland" src="<?php echo get_template_directory_uri()?>/images/uk-flag.png" alt="" />
                 </div>    
-            </div>
-        </div>
+            </div> -->
+            <?php } ?>
+    <?php wp_footer(); ?>
+        <!-- </div> -->
     </div>
     <div class="footer-copyright text-center">
         <div><span>Copyright Nucleus Group</span></div>
     </div>
-	<?php } ?>
-    <?php wp_footer(); ?>
+    <!--wp_footer php tag -->
   </body>
 </html>
