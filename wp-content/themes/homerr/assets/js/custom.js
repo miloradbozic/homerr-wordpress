@@ -104,11 +104,28 @@ $( document ).ready( function() {
 
   $(".slider-btn-right").click(function() {
     var activeLink = $(".slider").find(".active");
-    var data = activeClass.data("id")
-    activeLink.removeClass("active").next().addClass("active")
-  });
-  $(".slider-btn-left").click(function() {
+    var dataId = activeLink.data("id")
+    console.log(dataId)
 
+    activeLink.removeClass("active")
+    if (dataId == 3) {
+      $(".slider-link").first().addClass("active")
+    } else {
+      activeLink.next().addClass("active")
+    }
+    
+  });
+
+  $(".slider-btn-left").click(function() {
+    var activeLink = $(".slider").find(".active");
+    var dataId = activeLink.data("id")
+
+    activeLink.removeClass("active")
+    if (dataId == 1) {
+      $(".slider-link").last().addClass("active")
+    } else {
+      activeLink.prev().addClass("active")
+    }
   });
 
   //Collapse navbar if click on mobile

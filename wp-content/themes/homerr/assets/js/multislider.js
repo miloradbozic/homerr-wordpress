@@ -282,13 +282,11 @@
         var activeSlideView = 1;
 
         function allLeft(numberOfSlides) {
-            console.log(numberOfSlides, activeSlideView);
             numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
             activeSlideView +=numberOfSlides;
             if (activeSlideView > 3) {
                 activeSlideView %=3;
             }
-            console.log("after", numberOfSlides, activeSlideView);
 
             isItAnimating(function(){
                 reTargetSlides();
@@ -317,7 +315,6 @@
             activeSlideView -=numberOfSlides;
             if (activeSlideView < 1) {
                 activeSlideView %= 3;
-                console.log("after moduo ", activeSlideView)
             }
 
             isItAnimating(function(){
@@ -352,12 +349,9 @@
 
         activeSlideView = 1;
         function showSlideView(slideView) {
-            console.log("active: " + activeSlideView, "goto: " + slideView)
             if (slideView > activeSlideView) {
-                console.log("all left")
                 allLeft(slideView - activeSlideView);
             } else if (slideView < activeSlideView) {
-                console.log("all right")
                 allRight(activeSlideView - slideView);
             }
         }
