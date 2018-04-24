@@ -203,6 +203,9 @@
         // prevent animation firing if multislider is currently animating
         // all animations pass through this function, which emits events, and adds/removes animating class
         function isItAnimating(callback){
+            console.log("is it animating", !$multislider.hasClass('ms-animating') &&
+            !$multislider.hasClass('ms-HOVER') &&
+            !$multislider.hasClass('ms-PAUSE'))
 			if(!$multislider.hasClass('ms-animating') &&
                !$multislider.hasClass('ms-HOVER') &&
                !$multislider.hasClass('ms-PAUSE')){
@@ -283,12 +286,17 @@
 
         function allLeft(numberOfSlides) {
             numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
-            activeSlideView +=numberOfSlides;
-            if (activeSlideView > 3) {
-                activeSlideView %=3;
-            }
+
 
             isItAnimating(function(){
+                activeSlideView +=numberOfSlides;
+                if (activeSlideView > 3) {
+                    activeSlideView %=3;
+                }
+
+                console.log("triggering")
+                $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
+
                 reTargetSlides();
                 calcNumSlidesToMove(numberOfSlides);
 

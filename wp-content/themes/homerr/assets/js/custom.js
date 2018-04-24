@@ -102,31 +102,15 @@ $( document ).ready( function() {
     showSlideView($(this).data("id"));
   });
 
-  $(".slider-btn-right").click(function() {
+  $("#mixedSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
     var activeLink = $(".slider").find(".active");
     var dataId = activeLink.data("id")
-    console.log(dataId)
-
+    console.log("nad" + nextActiveId);
+    var nextLink = $('.slider-link[data-id="dataId"]');
     activeLink.removeClass("active")
-    if (dataId == 3) {
-      $(".slider-link").first().addClass("active")
-    } else {
-      activeLink.next().addClass("active")
-    }
-    
+    nextLink.addClass("active")
   });
 
-  $(".slider-btn-left").click(function() {
-    var activeLink = $(".slider").find(".active");
-    var dataId = activeLink.data("id")
-
-    activeLink.removeClass("active")
-    if (dataId == 1) {
-      $(".slider-link").last().addClass("active")
-    } else {
-      activeLink.prev().addClass("active")
-    }
-  });
 
   //Collapse navbar if click on mobile
   $('.nav a').click(function(){
