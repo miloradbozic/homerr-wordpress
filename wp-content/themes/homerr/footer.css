@@ -181,6 +181,38 @@ div.company-logo-single > .ups {
 .iconEngland {
     margin-top: -3px
 }
+
+#lang_sel_footer {
+    margin: 0;
+    padding: 7px;
+    text-align: right;
+    font: 11px Verdana, sans-serif;
+    min-height: 15px;
+    clear: both;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+#lang_sel_footer ul li img {
+    position: relative;
+    top: 1px;
+    width: 80px;
+    height: 40px;
+}
+#lang_sel_footer ul li:last-child {
+    height: 46px;
+}
+#lang_sel_footer ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0px;
+}
+#lang_sel_footer ul li a[title="Nederlands"] {
+    margin-right: 50px;;
+}
+#lang_sel_footer ul li a img[title="English"] {
+    height: 46px;
+    margin-right: 30px;
+}
 .footer-copyright span {
     color: white;
 }
@@ -192,6 +224,11 @@ div.company-logo-single > .ups {
     .before-footer-wrapper > .footer-title {
         font-size: 40px;
         margin-bottom: 50px;
+    }
+}
+@media (max-width: 800px) {
+    #lang_sel_footer {
+        text-align: center;
     }
 }
 @media (max-width: 636px) {
