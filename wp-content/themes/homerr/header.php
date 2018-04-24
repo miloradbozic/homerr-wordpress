@@ -42,10 +42,9 @@
     <?php
       $post = $wp_query->post;
     ?>
-    
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/shared.css">
-    <?php if ($post->ID == 15): ?>
+    <?php if ($post->ID == 15 || $post->ID == 575): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-body-home.css">
     <?php elseif ($post->ID == 1137 || $post->ID == 1139): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-ons-netwerk.css">
