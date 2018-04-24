@@ -77,3 +77,12 @@ header.entry-header {
     background-color: #636784;
     border-color: #adadad;
 }
+.nav.navbar-nav.navbar-right > li:last-of-type a.active {
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1200px) {
+    .header-content h1 {
+        font-size: 26px;
+    }
+}
