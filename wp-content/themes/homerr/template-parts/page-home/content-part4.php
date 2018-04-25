@@ -216,9 +216,9 @@
         <div class="slider-wrapper">
             <div class="slider">
                 <button class="slider-btn-left MS-left"></button>
-                <div class="slider-link active" data-id="1" click="showSlideView(1)"></div>
-                <div class="slider-link" data-id="2" click="showSlideView(2)"></div>
-                <div class="slider-link" data-id="3" click="showSlideView(3)"></div>
+                <div class="slider-link active slider1" data-id="1" click="showSlideView(1)"></div>
+                <div class="slider-link slider2" data-id="2" click="showSlideView(2)"></div>
+                <div class="slider-link slider3" data-id="3" click="showSlideView(3)"></div>
                 <button class="slider-btn-right MS-right"></button>
             </div>
             <div class="slider-text">

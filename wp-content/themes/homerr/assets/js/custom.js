@@ -104,13 +104,11 @@ $( document ).ready( function() {
   $("#mixedSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
     var activeLink = $(".slider").find(".active");
     activeLink.removeClass("active");
-    var dataId = activeLink.attr("data-id");
-    console.log(dataId);
-    var nextLink = $(".slider").find('.slider' + dataId + '');
-    console.log(nextLink);
+    // var dataId = activeLink.data("id");
+    var nextLink = $(".slider").find('.slider' + nextActiveId + '');
     nextLink.addClass("active");
-    console.log(nextLink);
   });
+
 
   //Collapse navbar if click on mobile
   $('.nav a').click(function(){

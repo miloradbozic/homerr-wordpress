@@ -293,8 +293,6 @@
                 if (activeSlideView > 3) {
                     activeSlideView %=3;
                 }
-
-                console.log("triggering", activeSlideView)
                 $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
 
                 reTargetSlides();
@@ -319,13 +317,21 @@
         }
 
         function allRight(numberOfSlides) {
+            console.log(numberOfSlides);
             numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
-            activeSlideView -=numberOfSlides;
-            if (activeSlideView < 1) {
-                activeSlideView %= 3;
-            }
+            // activeSlideView -=numberOfSlides;
+            // if (activeSlideView < 1) {
+            //     activeSlideView %= 3;
+            // }
 
             isItAnimating(function(){
+                activeSlideView -=numberOfSlides;
+                if (activeSlideView <= 0) {
+                    activeSlideView = 3;
+                }
+
+                console.log("triggering", activeSlideView)
+                $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
                 reTargetSlides();
                 calcNumSlidesToMove(numberOfSlides);
 
