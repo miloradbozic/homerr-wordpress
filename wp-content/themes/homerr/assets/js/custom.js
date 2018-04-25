@@ -102,12 +102,15 @@ $( document ).ready( function() {
   });
 
   $("#mixedSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
-    var activeLink = $(".slider").find(".active");
-    activeLink.removeClass("active");
-    // var dataId = activeLink.data("id");
-    var nextLink = $(".slider").find('.slider' + nextActiveId + '');
-    nextLink.addClass("active");
+    $(".slider").find(".active").removeClass("active");
+    var nextLink = $(".slider").find('.sliderLink' + nextActiveId + '').addClass("active");
+    changeText(nextActiveId);
   });
+
+  function changeText(nextActiveId) {
+    $(".slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
+    $(".slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
+  }
 
 
   //Collapse navbar if click on mobile

@@ -216,13 +216,19 @@
         <div class="slider-wrapper">
             <div class="slider">
                 <button class="slider-btn-left MS-left"></button>
-                <div class="slider-link active slider1" data-id="1" click="showSlideView(1)"></div>
-                <div class="slider-link slider2" data-id="2" click="showSlideView(2)"></div>
-                <div class="slider-link slider3" data-id="3" click="showSlideView(3)"></div>
+                <div class="slider-link active sliderLink1" data-id="1" click="showSlideView(1)"></div>
+                <div class="slider-link sliderLink2" data-id="2" click="showSlideView(2)"></div>
+                <div class="slider-link sliderLink3" data-id="3" click="showSlideView(3)"></div>
                 <button class="slider-btn-right MS-right"></button>
             </div>
-            <div class="slider-text">
-                Ons sociale netwerk bestaat uit Homerrs en HomerrPoints. Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen. HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker die tot minimaal 20 uur ‘s avonds geopend zijn. Daardoor is er altijd een punt dicht bij jou in de buurt om je pakketje op te halen.
+            <div class="slider-text sliderText1">
+                Ons1 sociale netwerk bestaat uit Homerrs en HomerrPoints. Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen. HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker die tot minimaal 20 uur ‘s avonds geopend zijn. Daardoor is er altijd een punt dicht bij jou in de buurt om je pakketje op te halen.
+            </div>
+            <div class="slider-text sliderText2 hideSlidertext">
+                Ons2 sociale netwerk bestaat uit Homerrs en HomerrPoints. Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen. HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker die tot minimaal 20 uur ‘s avonds geopend zijn. Daardoor is er altijd een punt dicht bij jou in de buurt om je pakketje op te halen.
+            </div>
+            <div class="slider-text sliderText3 hideSlidertext">
+                Ons3 sociale netwerk bestaat uit Homerrs en HomerrPoints. Homerrs zijn particulieren zoals bijvoorbeeld buurmannen of -vrouwen die regelmatig thuis zijn en voor jou een pakketje kunnen aannemen. HomerrPoints zijn lokale ondernemingen zoals bijvoorbeeld een koffietentje of bakker die tot minimaal 20 uur ‘s avonds geopend zijn. Daardoor is er altijd een punt dicht bij jou in de buurt om je pakketje op te halen.
             </div>
         </div>
     </div>

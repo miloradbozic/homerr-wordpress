@@ -256,8 +256,9 @@
         // determine how many slides need to be moved over, if slideAll is true
         function calcNumSlidesToMove(multiplier){
             multiplier = typeof multiplier !== 'undefined' ? multiplier : 1;
-            totalWidth = $msContent.width() * multiplier;						          // total width of .MS-content containing all visible slides
-		    numberVisibleSlides = Math.round(totalWidth/animateDistance);     // number of (visible) slides needed to be moved in each animation
+            totalWidth = $msContent.width() * multiplier;         // total width of .MS-content containing all visible slides
+            numberVisibleSlides = Math.round(totalWidth/animateDistance);     // number of (visible) slides needed to be moved in each animation
+    
         }
 
 

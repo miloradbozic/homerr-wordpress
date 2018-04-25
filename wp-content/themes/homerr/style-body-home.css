@@ -251,7 +251,7 @@
 /* end of part three */
 
 .slider-wrapper {
-    width: 60%;
+    width: 100%;
     margin: 0px auto;
     text-align: center;
     font-size: 18px;
@@ -263,6 +263,8 @@
     display: inline-block;
     margin-bottom: 30px;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .slider-wrapper .slider-btn-left {
@@ -298,6 +300,9 @@
 .slider-wrapper .slider-text {
     clear: both;
 }
+.hideSlidertext {
+    display: none;
+}
 
 /*media screan part*/
 @media (max-width: 1200px) {
@@ -317,6 +322,14 @@
         margin-right:2%;
     }
   }
+  @media (max-width: 992px) {
+    .slider div {
+        display: none;
+    }
+    .slider-text {
+        display: none;
+    }
+}
 @media (max-width: 991px) {
     .map-section .heading {
         width: 100%;
