@@ -107,12 +107,15 @@ $( document ).ready( function() {
     changeText(nextActiveId);
   });
 
+<<<<<<< HEAD
   function changeText(nextActiveId) {
     $(".slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
     $(".slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
   }
 
 
+=======
+>>>>>>> 16cc461f9d78997ab92af734cd3ccb0ce4f253c2
   //Collapse navbar if click on mobile
   $('.nav a').click(function(){
     $('.collapse').collapse('hide');

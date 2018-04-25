@@ -48,7 +48,8 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
         he found himself transformed in his bed into a snail.</p>
       </div>
       <div class="phoneDiv"
-style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/phone.png')"></div>
+style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/phone.png');
+background-size: 370px; background-repeat: no-repeat;"></div>
     </div>
   <!-- </div> -->
 </header>
