@@ -1,3 +1,4 @@
+<?php //todo: same as header.php, should use that one ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" href="<?php echo site_url(); ?>/favicon.png">
-
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
     <title><?php the_title(); ?></title>
     <?php wp_head(); ?>
 
@@ -38,12 +39,18 @@
       src="https://www.facebook.com/tr?id=1682710452043162&ev=PageView&noscript=1"
       /></noscript>
     <!-- End Facebook Pixel Code -->
-
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <?php
+      $post = $wp_query->post;
+    ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-header.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/shared.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-retailer.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-body-home.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
 
 <body>
-
-
-    <?php get_template_part( 'retailer_navigation' ); ?>
-
+    <?php get_template_part( 'top_navigation' ); ?>
+    <?php //get_template_part( 'retailer_navigation' ); ?>
     <div class="main-content">

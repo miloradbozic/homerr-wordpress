@@ -1,0 +1,11 @@
+.section-retailer {
+    margin-top: -130px;
+}
+
+.section-retailer .heading {
+    max-width: 48%;
+}
+
+.section-retailer .heading .separated-text {
+    margin-bottom: 40px;
+}

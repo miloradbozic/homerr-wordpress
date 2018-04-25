@@ -1,6 +1,7 @@
 body {
     margin-right: 15px;
     margin-left: 15px;
+    font-size: 18px;
 }
 header.entry-header {
     /* padding: 50px 0; */
@@ -15,6 +16,11 @@ header.entry-header {
 .header-content, .header-content-area {
     margin-top: 265px;
 }
+.header-content-alternate {
+    float: right;
+    text-align: right;
+}
+
 .header-content, .header-content-area {
     max-width: 650px;
 }
@@ -33,7 +39,13 @@ header.entry-header {
     max-width: 70%;
     margin: 0px auto;
     margin-top: 120px;
+    margin-bottom: 20px;
 }
+
+.section .heading-narrow h1{
+    width: 48%;
+}
+
 .section .heading .title {
     color: #000000;
     font-size: 48px;
@@ -56,6 +68,21 @@ header.entry-header {
     font-size: 30px;
     text-align: center;
 }
+
+.section .centered {
+    text-align: center;
+}
+
+.section .enum {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.section .halved {
+    width: 40%;
+    margin: 0px auto;
+}
+
 .wrapVraagInformationBtn {
     display: flex;
     justify-content: center;
