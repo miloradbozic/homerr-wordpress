@@ -1,5 +1,5 @@
 <!--
-<div class="section">
+    <div class="section">
     <div class="heading">
         <h1 class="title"><span class="emphasized">Case</span> studies</h1>
     </div>
@@ -55,7 +55,6 @@
     </div>
 </div>
 -->
-
 <div class="section slider-section">
     <div class="heading">
         <h1 class="title">Het <span class="emphasized">netwerk</span> van

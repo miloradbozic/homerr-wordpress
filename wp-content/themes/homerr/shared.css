@@ -3,6 +3,7 @@ body {
     margin-left: 15px;
     font-size: 18px;
 }
+
 header.entry-header {
     /* padding: 50px 0; */
     background-repeat: no-repeat;
@@ -223,9 +224,14 @@ header.entry-header {
     
 }
 @media (max-width: 1200px) {
-    
     .header-content h1 {
         font-size: 26px;
+    }
+
+    .navbar-collapse {
+        background: black;
+        opacity: 0.8;
+        border-radius: 0px 0px 10px 10px;
     }
 }
 @media (max-width: 1150px) {
