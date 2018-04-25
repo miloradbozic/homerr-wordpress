@@ -84,6 +84,34 @@ $( document ).ready( function() {
     spaceBetween: 30
   });
 
+  //single slider
+  $('#singleSlider').multislider({
+    duration: 750,
+    interval: false,
+    slideAll: false
+  });
+
+  function showSlideView(number) {
+    $('#singleSlider').multislider(['showSlideView', number])
+  }
+
+  $("#singleSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
+    $("#singleSlider .slider").find(".active").removeClass("active");
+    var nextLink = $("#singleSlider .slider").find('.sliderLink' + nextActiveId + '').addClass("active");
+    changeText(nextActiveId);
+  });
+
+  $("#singleSlider .slider-link").click(function() {
+    $("#singleSlider .slider-link").removeClass("active");
+    $(this).addClass("active");
+    showSlideView($(this).data("id"));
+  });
+
+  function changeText(nextActiveId) {
+    $("#singleSlider .slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
+    $("#singleSlider .slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
+  }
+
   //multi slider
   $('#mixedSlider').multislider({
     duration: 750,
@@ -95,21 +123,21 @@ $( document ).ready( function() {
     $('#mixedSlider').multislider(['showSlideView', number])
   }
 
-  $(".slider-link").click(function() {
-    $(".slider-link").removeClass("active");
+  $("#mixedSlider" ).on("sliderMoved", function( event, nextActiveId ) {
+    $("#mixedSlider .slider").find(".active").removeClass("active");
+    var nextLink = $("#mixedSlider .slider").find('.sliderLink' + nextActiveId + '').addClass("active");
+    changeText(nextActiveId);
+  });
+
+  $("#mixedSlider .slider-link").click(function() {
+    $("#mixedSlider .slider-link").removeClass("active");
     $(this).addClass("active");
     showSlideView($(this).data("id"));
   });
 
-  $("#mixedSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
-    $(".slider").find(".active").removeClass("active");
-    var nextLink = $(".slider").find('.sliderLink' + nextActiveId + '').addClass("active");
-    changeText(nextActiveId);
-  });
-  
   function changeText(nextActiveId) {
-    $(".slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
-    $(".slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
+    $("#mixedSlider .slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
+    $("#mixedSlider .slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
   }
 
   //Collapse navbar if click on mobile

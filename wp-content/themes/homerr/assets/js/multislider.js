@@ -294,7 +294,7 @@
                 if (activeSlideView > 3) {
                     activeSlideView %=3;
                 }
-                $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
+                $multislider.trigger( "sliderMoved", [activeSlideView] );
 
                 reTargetSlides();
                 calcNumSlidesToMove(numberOfSlides);
@@ -330,7 +330,7 @@
                     activeSlideView = 3;
                 }
 
-                $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
+                $multislider.trigger( "sliderMoved", [activeSlideView] );
                 reTargetSlides();
                 calcNumSlidesToMove(numberOfSlides);
 
