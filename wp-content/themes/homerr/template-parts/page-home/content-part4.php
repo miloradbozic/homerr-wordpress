@@ -135,14 +135,14 @@
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-2.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-2.png" alt="" />
                 </div>
                 <h2 class="blogTitle">Langendijk</h2>
                 <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-3.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-3.png" alt="" />
                 </div>
                 <h2 class="blogTitle">Delicious store</h2>
                 <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
@@ -164,14 +164,14 @@
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-2.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-2.png" alt="" />
                 </div>
                 <h2 class="blogTitle">2. Langendijk</h2>
                 <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-3.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-3.png" alt="" />
                 </div>
                 <h2 class="blogTitle">2. Delicious store</h2>
                 <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
@@ -193,14 +193,14 @@
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-2.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-2.png" alt="" />
                 </div>
                 <h2 class="blogTitle">3. Langendijk</h2>
                 <div class="description">"Gisteren geverifieerd <span class="emphasized emphasized-alternate">Homerr</span> geworden, dit maakt mij hele grote blij"</div>
             </div>
             <div class="item">
                 <div class="imgTitle">
-                    <img src="http://homerr.bm/wp-content/themes/homerr/images/home/home-slider-3.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/home/home-slider-3.png" alt="" />
                 </div>
                 <h2 class="blogTitle">3. Delicious store</h2>
                 <div class="description">"M'n hand past niet meer in m'n broekzak omdat die vol zit met euro's dankzij <span class="emphasized emphasized-alternate">Homerr</span>"</div>
