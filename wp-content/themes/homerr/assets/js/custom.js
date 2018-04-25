@@ -151,7 +151,8 @@ $( document ).ready( function() {
 	//Jumbotron fullscreen size
     resizeDiv();
   });
-	//On Resize
+  //On Resize
+  /*
   window.onresize = function(event) {
     resizeDiv(); //Resize jumbotron div
   };
@@ -167,3 +168,4 @@ $( document ).ready( function() {
       'height': vph * cover_ratio + 'px'
     });
   }
+  */
