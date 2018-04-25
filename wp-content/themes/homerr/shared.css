@@ -7,8 +7,10 @@ header.entry-header {
     background-repeat: no-repeat;
     background-position: center;
     display: table;
-    width: 100%;
-    height: 720px;
+    /* width: 100%;
+    height: 720px; */
+    background-size: cover;
+    height: 37vw;
 }
 .header-content, .header-content-area {
     margin-top: 265px;
@@ -80,6 +82,60 @@ header.entry-header {
 .nav.navbar-nav.navbar-right > li:last-of-type a.active {
     border-bottom: 1px solid white;
 }
+@media (max-width: 1600px) {
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content, .header-content-area {
+        max-width: 500px;
+        margin-top: 235px;
+    }
+}
+@media (max-width: 1460px) {
+    .header-content h1 {
+        font-size: 40px;
+    }
+    .header-content, .header-content-area {
+        margin-top: 215px;
+    }
+}
+@media (max-width: 1460px) {
+    .header-content h1 {
+        font-size: 36px;
+    }
+    .header-content, .header-content-area {
+        margin-top: 210px;
+    }
+}
+@media (max-width: 1300px) {
+    .white-small-title, .white-small-title-retailer {
+        font-size: 18px;
+    }
+    .header-content, .header-content-area {
+        max-width: 340px;
+        margin-top: 170px;
+    }
+    
+}
+@media (max-width: 1200px) {
+    
+    .header-content h1 {
+        font-size: 26px;
+    }
+}
+@media (max-width: 1150px) {
+    
+}
+@media (max-width: 1050px) {
+    .white-small-title, .white-small-title-retailer {
+        display: none;
+    }
+}
+@media (max-width: 780px) {
+    .header-content, .header-content-area {
+        margin-top: 120px;
+    }
+}
 @media (min-width: 992px) {
     .how-work-word-homerr .how-work-list-description #home-slider > .container, header.home-slider > .container {
         background: transparent;
@@ -87,10 +143,5 @@ header.entry-header {
         background-size: 100%;
         /* position: relative; */
         /* display: none; */
-    }
-}
-@media (max-width: 1200px) {
-    .header-content h1 {
-        font-size: 26px;
     }
 }

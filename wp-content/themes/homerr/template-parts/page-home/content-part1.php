@@ -44,12 +44,14 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
     <div class="container">
       <div class="header-content">
         <h1 class="entry-title white-big-title">De toekomst van pakketbezorging</h1>
+        <div class="wrapSmallTitle">
         <p class="white-small-title">One morning, when Gregor Samsa woke from troubled dreams,
         he found himself transformed in his bed into a snail.</p>
+        </div>
       </div>
       <div class="phoneDiv"
 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/phone.png');
-background-size: 370px; background-repeat: no-repeat;"></div>
+ background-repeat: no-repeat;"></div>
     </div>
   <!-- </div> -->
 </header>

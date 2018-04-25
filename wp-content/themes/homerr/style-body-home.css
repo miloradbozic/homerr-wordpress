@@ -1,6 +1,9 @@
 .phoneDiv {
-    height: 720px;
-    width: 400px;
+    /* height: 720px;
+    width: 400px; */
+    background-size: 370px;
+    height: 93%;
+    width: 30%;
     margin-top: -390px;
     margin-left: 59%;
     /* border: 1px solid red; */
@@ -305,15 +308,50 @@
 }
 
 /*media screan part*/
+@media (max-width: 1600px) {
+    .phoneDiv {
+        margin-top: -320px;
+        background-size: 300px;
+    }
+}
+@media (max-width: 1460px) {
+    .phoneDiv {
+        margin-left: 64%;
+    }
+}
+@media (max-width: 1300px) {
+    .phoneDiv {
+        background-size: 250px;
+        margin-top: -300px;
+    }
+}
 @media (max-width: 1200px) {
     .phoneDiv {
-        display: none;
+        background-size: 220px;
+        margin-top: -270px;
     }
     .header-content h1 {
         font-size: 26px;
     }
     .section .heading .title {
         font-size: 40px;
+    }
+}
+@media (max-width: 1150px) {
+    .phoneDiv {
+        background-size: 200px;
+        margin-left: 67%;
+    }
+}
+@media (max-width: 1050px) {
+    .phoneDiv {
+        background-size: 170px;
+        margin-left: 70%;
+    }
+}
+@media (max-width: 1050px) {
+    .phoneDiv {
+        display: none;
     }
 }
 @media screen and (max-width: 992px) {
@@ -339,6 +377,11 @@
     }
     .top30 {
         margin-top: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .wrapDivApps {
+        margin-top: -30px;
     }
 }
 @media (max-width: 600px) {
