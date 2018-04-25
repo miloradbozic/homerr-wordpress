@@ -13,7 +13,7 @@
   <header class="entry-header entry-header-background home-slider-retailer" style="background-image: url('<?php echo $image[0]; ?>')">
     <div class="container height-js">
       <div class="center-elements">
-        <div class="header-content-area-retailer">
+        <div class="header-content header-content-alternate">
           <div class="header-content-area-inner-retailer">
             <?php if (get_field('page_title_override')) {
               echo '<h1 class="entry-title white-big-title-retailer">';
@@ -29,9 +29,6 @@
                 appstore_buttons();
               } ?>
           </div>
-        </div>
-        <div class="monitor-image-wrapper hidden-xs hidden-sm">
-          <img class="monitor-image" src="<?php echo get_template_directory_uri(); ?>/images/monitor.png" />
         </div>
       </div>
     </div>
