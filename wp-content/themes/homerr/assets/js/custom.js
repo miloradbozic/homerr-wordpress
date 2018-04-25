@@ -109,7 +109,6 @@ $( document ).ready( function() {
     nextLink.addClass("active");
   });
 
-
   //Collapse navbar if click on mobile
   $('.nav a').click(function(){
     $('.collapse').collapse('hide');
