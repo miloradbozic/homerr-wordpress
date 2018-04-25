@@ -85,7 +85,6 @@ $( document ).ready( function() {
   });
 
   //multi slider
-  var activeSlide = 1;
   $('#mixedSlider').multislider({
     duration: 750,
     interval: false,
@@ -104,11 +103,13 @@ $( document ).ready( function() {
 
   $("#mixedSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
     var activeLink = $(".slider").find(".active");
-    var dataId = activeLink.data("id")
-    console.log("nad" + nextActiveId);
-    var nextLink = $('.slider-link[data-id="dataId"]');
-    activeLink.removeClass("active")
-    nextLink.addClass("active")
+    activeLink.removeClass("active");
+    var dataId = activeLink.attr("data-id");
+    console.log(dataId);
+    var nextLink = $(".slider").find('.slider' + dataId + '');
+    console.log(nextLink);
+    nextLink.addClass("active");
+    console.log(nextLink);
   });
 
 

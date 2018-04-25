@@ -294,7 +294,7 @@
                     activeSlideView %=3;
                 }
 
-                console.log("triggering")
+                console.log("triggering", activeSlideView)
                 $( "#mixedSlider").trigger( "sliderMoved", [activeSlideView] );
 
                 reTargetSlides();
