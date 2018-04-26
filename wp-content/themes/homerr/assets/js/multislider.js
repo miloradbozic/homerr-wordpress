@@ -106,7 +106,7 @@
                 "nextAll":function(){ overRidePause(allLeft); },
                 "prev":function(){ overRidePause(singleRight); },
                 "prevAll":function(){ overRidePause(allRight); },
-                "showSlideView":function(slideView){ showSlideView(slideView); },
+                "showSlideView":function(slideView, all){ showSlideView(slideView, all); },
                 "settings":settings
             });
         }
@@ -361,25 +361,45 @@
         }
 
         activeSlideView = 1;
-        function showSlideView(slideView) {
+        function showSlideView(slideView, all) {
+
             if (slideView > activeSlideView) {
-                allLeft(slideView - activeSlideView);
+                if (all === true) {
+                    allLeft(slideView - activeSlideView);
+                } else {
+                    singleLeft(slideView - activeSlideView);
+                }
+                
             } else if (slideView < activeSlideView) {
-                allRight(activeSlideView - slideView);
+                if (all === true) {
+                    allRight(activeSlideView - slideView);
+                } else {
+                    singleRight(slideView - activeSlideView);
+                }
             }
         }
 
-        function singleLeft(){
+        function singleLeft(numberOfSlides){
+            numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : 1;
             isItAnimating(function(){
                 reTargetSlides();
+                activeSlideView += numberOfSlides;
+                if (activeSlideView > 3) {
+                    activeSlideView %=3;
+                }
+                console.log("moved left", activeSlideView)
+                $multislider.trigger( "sliderMoved", [activeSlideView] );
                 $imgFirst.animate(
                     {
-                        marginLeft: -animateDistance
+                        marginLeft: -animateDistance * numberOfSlides
                     }, {
                         duration: animateDuration,
                         easing: "swing",
-                        complete: function(){
-                            $imgFirst.detach().removeAttr('style').appendTo($msContent);
+                        complete: function() {
+                            for (var i = 0; i < numberOfSlides; ++i) {
+                                $imgFirst.detach().removeAttr('style').appendTo($msContent);
+                                reTargetSlides();
+                            }
                             doneAnimating();
                         }
                     }
@@ -387,19 +407,34 @@
             });
         }
 
-        function singleRight(){
+        function singleRight(numberOfSlides){
+            numberOfSlides = typeof numberOfSlides !== 'undefined' ? numberOfSlides : -1;
             isItAnimating(function(){
                 reTargetSlides();
+                activeSlideView -= 1;
+                if (activeSlideView <= 0) {
+                    activeSlideView = 3;
+                }
+                console.log("moved right", activeSlideView)
+                var repetitions = Math.abs(numberOfSlides)
+                if (repetitions == 1) {
+                    console.log("Informing of slding", activeSlideView)
+                    $multislider.trigger( "sliderMoved", [activeSlideView] );
+                }
+
                 $imgLast.css('margin-left',-animateDistance).prependTo($msContent);
                 $imgLast.animate(
                     {
                         marginLeft: 0
                     }, {
-                        duration: animateDuration,
+                        duration: repetitions > 1 ? 100 : animateDuration,
                         easing: "swing",
                         complete: function(){
                             $imgLast.removeAttr("style");
                             doneAnimating();
+                            if (repetitions > 1) {
+                                singleRight(numberOfSlides+1);
+                            }
                         }
                     }
                 );

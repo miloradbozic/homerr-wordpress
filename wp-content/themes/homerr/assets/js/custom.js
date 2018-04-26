@@ -91,23 +91,24 @@ $( document ).ready( function() {
     slideAll: false
   });
 
-  function showSlideView(number) {
-    $('#singleSlider').multislider(['showSlideView', number])
+  function showSlideViewSingle(number) {
+    $('#singleSlider').multislider(['showSlideView', number, false])
   }
 
   $("#singleSlider" ).on( "sliderMoved", function( event, nextActiveId ) {
     $("#singleSlider .slider").find(".active").removeClass("active");
     var nextLink = $("#singleSlider .slider").find('.sliderLink' + nextActiveId + '').addClass("active");
-    changeText(nextActiveId);
+    changeTextSingle(nextActiveId);
   });
 
   $("#singleSlider .slider-link").click(function() {
+    console.log("It has been clicked")
     $("#singleSlider .slider-link").removeClass("active");
     $(this).addClass("active");
-    showSlideView($(this).data("id"));
+    showSlideViewSingle($(this).data("id"));
   });
 
-  function changeText(nextActiveId) {
+  function changeTextSingle(nextActiveId) {
     $("#singleSlider .slider-wrapper .slider-text").not(".hideSlidertext").addClass("hideSlidertext");
     $("#singleSlider .slider-wrapper").find('.sliderText' + nextActiveId + '').removeClass("hideSlidertext");
   }
@@ -120,7 +121,7 @@ $( document ).ready( function() {
   });
 
   function showSlideView(number) {
-    $('#mixedSlider').multislider(['showSlideView', number])
+    $('#mixedSlider').multislider(['showSlideView', number, true])
   }
 
   $("#mixedSlider" ).on("sliderMoved", function( event, nextActiveId ) {
@@ -149,7 +150,7 @@ $( document ).ready( function() {
 
 $( document ).ready( function() {
 	//Jumbotron fullscreen size
-    resizeDiv();
+    //resizeDiv();
   });
   //On Resize
   /*
