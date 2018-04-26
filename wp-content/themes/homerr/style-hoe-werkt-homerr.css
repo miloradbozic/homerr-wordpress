@@ -1,0 +1,98 @@
+#before-footer {
+    background: none;
+}
+.imageApp {
+    text-align: center;
+}
+
+.imageApp img {
+    width: 100%;
+}
+.imageApp h2 {
+    font-size: 42px;
+    color: black;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.imageApp span {
+    font-size: 18px;
+    line-height: 2;
+}
+.wrapMobileScrean {
+    padding-bottom: 150px;
+}
+.wrapMobileScrean div {
+    min-height: 150px
+}
+.webshopImage {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.webshopImage img {
+    width: 100%;
+}
+.webshopImage h2 {
+    font-size: 42px;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.webshopImage span {
+    font-size: 18px;
+}
+.emailImg {
+    margin-left: auto;
+            margin-right: auto;
+}
+.schermImg {
+    float: left;
+}
+.emailImg {
+    margin-left: 12.5%;
+}
+.peopleImg {
+    float: right;
+}
+.webshopImage .col-md-3 {
+    border: 1px solid #d9d9d9;
+    /* padding-bottom: 50px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 50px
+}
+.imageText {
+    min-height: 100px;
+}
+.demoAanvragen {
+    margin-bottom: 100px;
+}
+.before-footer-wrapper > .footer-title {
+    display: none;
+}
+.download-app {
+    display: none;
+}
+@media (max-width: 991px) {
+    .wrapMobileScrean {
+        padding-bottom: 0px;
+    }
+    .schermImg {
+        float: none;
+    }
+    .emailImg {
+        margin-left: 0%;
+    }
+    .peopleImg {
+        float: none;
+    }
+}
+@media (max-width: 486px) {
+    .wrapAppImages .ios {
+        width: 200px;
+        margin-left: 40px;
+        margin-bottom: 20px
+    }
+}
