@@ -87,7 +87,7 @@
         // used if method is called after initialization
         function getStringArgs(str){
             if (str instanceof Array) {
-                $multislider.data(str[0])(str[1]);
+                $multislider.data(str[0])(str[1], str[2]);
             }
             else if (typeof $multislider.data(str) !== 'undefined'){
                 $multislider.data(str)();
@@ -202,10 +202,7 @@
 
         // prevent animation firing if multislider is currently animating
         // all animations pass through this function, which emits events, and adds/removes animating class
-        function isItAnimating(callback){
-            console.log("is it animating", !$multislider.hasClass('ms-animating') &&
-            !$multislider.hasClass('ms-HOVER') &&
-            !$multislider.hasClass('ms-PAUSE'))
+        function isItAnimating(callback) {
 			if(!$multislider.hasClass('ms-animating') &&
                !$multislider.hasClass('ms-HOVER') &&
                !$multislider.hasClass('ms-PAUSE')){
@@ -387,7 +384,7 @@
                 if (activeSlideView > 3) {
                     activeSlideView %=3;
                 }
-                console.log("moved left", activeSlideView)
+
                 $multislider.trigger( "sliderMoved", [activeSlideView] );
                 $imgFirst.animate(
                     {
@@ -415,10 +412,9 @@
                 if (activeSlideView <= 0) {
                     activeSlideView = 3;
                 }
-                console.log("moved right", activeSlideView)
+
                 var repetitions = Math.abs(numberOfSlides)
                 if (repetitions == 1) {
-                    console.log("Informing of slding", activeSlideView)
                     $multislider.trigger( "sliderMoved", [activeSlideView] );
                 }
 

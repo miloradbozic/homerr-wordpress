@@ -52,6 +52,8 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-hoe-werkt-homerr.css">
     <?php elseif ($post->ID == 22): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-over-ons.css">
+    <?php elseif ($post->ID == 202 || $post->ID == 868): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-faq.css">
     <?php endif; ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
