@@ -50,6 +50,8 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-ons-netwerk.css">
     <?php elseif ($post->ID == 20 || $post->ID == 1216): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-hoe-werkt-homerr.css">
+    <?php elseif ($post->ID == 22): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-over-ons.css">
     <?php endif; ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>
