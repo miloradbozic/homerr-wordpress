@@ -55,8 +55,5 @@
 </head>
 
 <body>
-   
-
     <?php get_template_part( 'top_navigation' ); ?>
-
     <div class="main-content">

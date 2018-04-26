@@ -9,3 +9,50 @@
 .section-retailer .heading .separated-text {
     margin-bottom: 40px;
 }
+
+#singleSlider {
+    display: flex;
+    width: 86%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+#singleSlider .slide-text {
+    margin-bottom: 40px;
+}
+
+#singleSlider h1 {
+    font-size: 48px;
+    color: black;
+}
+
+#singleSlider p {
+    font-size: 20px;
+}
+
+#singleSlider .slider-wrapper {
+    width: 50%;
+    text-align: left;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#singleSlider .MS-content {
+    width:50%;
+    float: left;
+}
+
+#singleSlider .slider-wrapper .slider {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#singleSlider .slider-wrapper .slider-text {
+    margin-bottom: 80px;
+}
+
+
+#singleSlider .item {
+    width: 100%;
+}
