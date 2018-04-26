@@ -27,7 +27,6 @@
                 if (get_field('page_subtitle')) : ?>
                   <p class="white-small-title"><?php the_field('page_subtitle') ?></p>
                  <?php endif;
-                get_search_form();
                 if (get_field('display_download_buttons')) {
                   appstore_buttons();
                 } ?>
@@ -77,7 +76,7 @@
                       <?php foreach ( $categories as $category ) {?>
                         <?php
                         if ($i==1){?>
-                           <li role="presentation" class="active"><a href="#<?php echo $category->term_id;?>" aria-controls="settings" role="tab" data-toggle="tab"><?php echo $category->name;?></a></li>
+                           <li style="border-left: 0px solid transparent;" role="presentation" class="active"><a href="#<?php echo $category->term_id;?>" aria-controls="settings" role="tab" data-toggle="tab"><?php echo $category->name;?></a></li>
                         <?php
                         }
                         else{?>
@@ -89,6 +88,11 @@
                       }
                       ?>
                     </ul>
+                    <div class="wrapInput">
+                      <?php
+                        get_search_form();
+                      ?>
+                    </div>
 
                     <?php $i=1;?>
                     <!-- Tab panes -->

@@ -9,11 +9,11 @@
 		<input type="hidden" name="search_page_id" value="<?php echo get_the_ID(); ?>"/>
 		<input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>"/>
     <div class="input-group">
-      <input type="text" class="form-control" value="" name="s" id="s" autocomplete="off">
+      <input type="text" class="form-control" value="" name="s" id="s" autocomplete="off" placeholder="Waar ben je naar op zoek?">
       <div class="input-group-btn">
-        <button type="submit" id="searchsubmit" class="btn btn-default" aria-label="Search">
+        <!-- <button type="submit" id="searchsubmit" class="btn btn-default" aria-label="Search">
           <span class="glyphicon glyphicon-search"></span>
-        </button>
+        </button> -->
       </div>
     </div>
 

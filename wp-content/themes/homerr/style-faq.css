@@ -1,0 +1,45 @@
+.search-page-header .header-content-area {
+    text-align: left;
+    margin-left: 0px;
+}
+.faq-page-content .nav-tabs > li > a:focus, .faq-page-content .nav-tabs > li > a:hover, .faq-page-content .nav-tabs > li.active > a {
+    border-color: transparent;
+    background-color: transparent;
+    color: #37b89f;
+}
+.faq-page-content .nav-tabs > li > a {
+    color: #d9d9d9;
+    font-weight: 700;
+}
+.faq-page-content .nav-tabs > li, .nav-pills > li:last-child {
+    border-left: 2px solid #d9d9d9;
+}
+.wrapInput {
+    margin-top: 20px;
+}
+.wrapInput .input-group {
+    width: 100%;
+}
+.wrapInput .input-group input {
+    border-radius: 0px;
+    border: 2px solid #d9d9d9;
+    font-size: 18px;
+    background: url("images/faq/icon-search.png") no-repeat scroll 96% 5px;
+    background-size: 30px 30px;
+}
+.faq-search-form button, .faq-search-form input {
+    -webkit-box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2);
+}
+.before-footer-wrapper > .footer-title {
+    display: none;
+}
+.download-app {
+    display: none;
+}
+@media (max-width:500px) {
+    .faq-page-content .nav-tabs > li, .nav-pills > li:last-child {
+        border-left: 0px;
+    }
+}
