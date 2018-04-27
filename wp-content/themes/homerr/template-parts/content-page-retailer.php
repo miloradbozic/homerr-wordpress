@@ -51,6 +51,7 @@
       ) );
       ?>
   </div>
+  <?php get_template_part( 'template-parts/page-home/content', 'part4' ); ?>
   <!-- .entry-content -->
 </article>
 <!-- #post-## -->

@@ -11,8 +11,6 @@
   <?php get_template_part( 'template-parts/page-home/content', 'part1' ); ?>
   <?php //get_template_part( 'template-parts/page-home/content', 'part2' ); ?>
   <?php //get_template_part( 'template-parts/page-home/content', 'part3' ); ?>
-  <?php //get_template_part( 'template-parts/page-home/content', 'part4' ); ?>
-
   <div class="entry-content">
     <?php  
       the_content();
@@ -22,5 +20,6 @@
       ) );
       ?>
   </div>
+  <?php get_template_part( 'template-parts/page-home/content', 'part4' ); ?>
 </article>
 <!-- #post-## -->
