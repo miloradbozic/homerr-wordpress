@@ -339,3 +339,6 @@ function activate_plugin_worker() {
   update_option( 'active_plugins', $active_plugins );
 }
 add_action( 'init', 'activate_plugin_worker' );
+
+remove_filter( 'the_content', 'wpautop' );
+remove_filter('the_excerpt', 'wpautop');

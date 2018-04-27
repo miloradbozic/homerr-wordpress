@@ -1,15 +1,21 @@
+.entry-content {
+    margin-bottom: 100px;
+}
 .section-retailer {
-    margin-top: -130px;
+    margin-top: -60px;
 }
 
 .section-retailer .heading {
-    max-width: 48%;
+    max-width: 62%;
 }
 
 .section-retailer .heading .separated-text {
-    margin-bottom: 40px;
+    margin-bottom: 75px;
 }
-
+.wragINfoBtn {
+    margin-top: 60px;
+    margin-bottom: 190px;
+}
 #singleSlider {
     display: flex;
     width: 86%;
@@ -42,7 +48,9 @@
     width:50%;
     float: left;
 }
-
+.section-retailer .bottom120 {
+    display: none;
+}
 #singleSlider .slider-wrapper .slider {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -54,4 +62,7 @@
 
 #singleSlider .item {
     width: 100%;
+}
+.section-retailer h1 {
+    margin-top: 70px;
 }
