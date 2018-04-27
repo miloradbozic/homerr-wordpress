@@ -7,7 +7,8 @@
    */
   function homerr_scripts() {
     wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
-    wp_enqueue_style( 'seravek-font', get_template_directory_uri() . '/assets/fonts/seravek/seravek-font.css' );
+    //wp_enqueue_style( 'seravek-font', get_template_directory_uri() . '/assets/fonts/seravek/seravek-font.css' );
+    wp_enqueue_style( 'avenirnext-font', get_template_directory_uri() . '/assets/fonts/avenirnext/avenirnext-font.css' );
     wp_enqueue_style( 'swiper', get_template_directory_uri() . '/assets/css/swiper.min.css', array(), '3.4.2', 'all' );
     wp_enqueue_style( 'style.css', get_stylesheet_uri() );
 
