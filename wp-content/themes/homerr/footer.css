@@ -219,6 +219,9 @@ div.company-logo-single > .ups {
 .footer-copyright div {
     padding-top: 20px;
 }
+#footer, .navbar-default {
+    background-color: transparent;
+}
 
 @media (max-width: 1200px) {
     .before-footer-wrapper > .footer-title {
