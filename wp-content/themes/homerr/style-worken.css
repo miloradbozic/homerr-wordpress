@@ -1,0 +1,30 @@
+.sectionWerken {
+    margin-top: -220px;
+}
+.header-content-area-inner {
+    padding-top: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    width: 40%;
+}
+.topBoldText {
+    margin-top: 100px;
+}
+.companies-logo-wrapper {
+    display: none;
+}
+.before-footer-wrapper > .footer-title {
+    display: none;
+}
+.download-app {
+    display: none;
+}
+.site-main .entry-content {
+    padding-bottom: 0px;;
+}
+@media (max-width: 700px) {
+    .section .heading {
+        max-width: 100%;
+    }
+}

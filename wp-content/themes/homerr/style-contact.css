@@ -1,12 +1,9 @@
 .header-content-area-inner {
-    padding-top: 180px;
+    padding-top: 0px;
     display: table-cell;
     vertical-align: middle;
     position: absolute;
     width: 40%;
-}
-.header-content-area-inner {
-    padding-top: 0px;
 }
 .entry-content .container {
     width: 88%;
