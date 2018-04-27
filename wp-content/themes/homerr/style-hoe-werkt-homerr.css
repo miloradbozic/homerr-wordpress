@@ -1,3 +1,27 @@
+.navbar-default .navbar-nav>li>a:hover {
+    color: #398d8f;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a.active {
+    color: white;
+    background: transparent;
+    color: #fff;
+    border-radius: 0px;
+    padding: 8px 30px;
+    margin-top: 7px;
+    border-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+}
+.navbar-default .navbar-nav > li > a.active:hover {
+    color: #398d8f;
+}
+.entry-content {
+    margin-top: -160px;
+}
 #before-footer {
     background: none;
 }
