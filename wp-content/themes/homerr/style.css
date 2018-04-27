@@ -7,9 +7,10 @@ Description: Custom Twitter Bootstrap 3 WordPress Theme
 Version: 1.0
 License: Private licence
 */
+
 * {
 	/*font-size: 100%;*/
-	font-family: "Seravek", "Helvetica-Neue", sans-serif;
+	font-family: "AvenirNext", "Helvetica-Neue", sans-serif;
 	letter-spacing: 0.06em;
 	color: black;
 }
@@ -20,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Seravek", "Helvetica-Neue", sans-serif;
+	font-family: "AvenirNext", "Helvetica-Neue", sans-serif;
 	font-weight: bold;
 	font-style: normal;
 }
@@ -314,7 +315,7 @@ a.home-slider-button {
 .white-big-title,
 .white-big-title-retailer {
 	text-transform: uppercase;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-weight: 700;
 	font-size: 35px;
 	color: #fff;
@@ -323,7 +324,7 @@ a.home-slider-button {
 
 .white-medium-title {
 	color: #fff;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -331,7 +332,7 @@ a.home-slider-button {
 .white-small-title,
 .white-small-title-retailer {
 	color: #fff;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -349,7 +350,7 @@ a.home-slider-button {
 	border-radius: 5px;
 	background-color: #6a2f83;
 	color: #ffffff;
-	font-family: Seravek;
+	font-family: AvenirNext;
 	font-size: 26px;
 }
 
@@ -437,7 +438,7 @@ p.benefits-description {
 
 .colored-title {
 	color: #398d8f;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-weight: 500;
 }
 
@@ -456,7 +457,7 @@ p.benefits-description {
 	margin-top: 15px;
 	color: #3f9795;
 	font-weight: 500;
-	font-family: "Seravek", sans-serif;
+	font-family: "AvenirNext", sans-serif;
 }
 
 #prices-container {
@@ -484,7 +485,7 @@ p.benefits-description {
 .social-network-description,
 .services-description-text {
 	color: #ffffff;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 18px;
 	font-weight: 400;
 	margin: 20px auto 0;
@@ -587,7 +588,7 @@ p.benefits-description {
 }
 
 .company-details-text {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 18px;
 	font-weight: 400;
 	color: #666666;
@@ -595,7 +596,7 @@ p.benefits-description {
 }
 
 .company-details-text span {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -691,7 +692,7 @@ p.benefits-description {
 
 .company-how-work-description-text {
 	display: inline-block;
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 18px;
 	font-weight: 400;
 	padding: 15px 0;
@@ -797,20 +798,20 @@ textarea {
 }
 
 .package-types {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 36px;
 	font-weight: 700;
 }
 
 .package-text {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 22px;
 	font-weight: 400;
 	padding-top: 10px;
 }
 
 .package-price {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 36px;
 	font-weight: 700;
 	padding-top: 5px;
@@ -822,18 +823,18 @@ textarea {
 }
 
 .prices_description p {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 26px;
 	font-weight: 400;
 }
 
 .prices_description span {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-weight: 700;
 }
 
 .prices_notice {
-	font-family: "Seravek";
+	font-family: "AvenirNext";
 	font-size: 18px;
 	font-weight: 400;
 	color: #ffffff;
