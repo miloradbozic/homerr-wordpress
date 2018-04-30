@@ -26,7 +26,7 @@ header.entry-header {
     max-width: 100%;
 }
 .header-content-area {
-    max-width: 750px;
+    /* max-width: 750px; */
 }
 .header-content h1, .header-content-area h1 {
     font-size: 60px;
