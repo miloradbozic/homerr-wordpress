@@ -23,16 +23,13 @@
             <hr class="hr-text" data-content="Partners">
             <div class="row company-logos-bottom">
                 <div class="col-xs-5ths company-logo-single company-dhl">
-                    <img class="ups" src="<?php echo get_template_directory_uri()?>/images/ups-new.png"/>
+                    <img class="ups" src="<?php echo get_template_directory_uri()?>/images/ups_logo.png"/>
                 </div>
                 <div class="col-xs-5ths company-logo-single company-dhl">
-                    <img src="<?php echo get_template_directory_uri()?>/images/dpd-new.png" />
-                </div>
-                <div class="col-xs-5ths company-logo-single company-dhl">
-                    <img src="<?php echo get_template_directory_uri()?>/images/frank-new.png" />
+                    <img src="<?php echo get_template_directory_uri()?>/images/dpd_logo.png" />
                 </div>
                 <div class="col-xs-5ths company-logo-single company-dhl" >
-                    <img height="30px" src="<?php echo get_template_directory_uri()?>/images/dhl-new.png" />
+                    <img src="<?php echo get_template_directory_uri()?>/images/dhl_logo.png" />
                 </div>
             </div>
             <hr class="hr-text" data-content="">
@@ -48,14 +45,14 @@
                 <div class="download-app download-app-ios">
                     <a class="" href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8">
                         <!-- <img src="http://homerr.nl/wp-content/themes/homerr/images/app_store.png" /> -->
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png" alt="Smiley face" height="90" width="280">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/apple_btn_small.png" alt="Smiley face" height="90" width="280">
                     </a>
                 </div>
                 <div class="spaceBetween"></div>
                 <div class=" download-app download-app-android">
                     <a class="" href="https://play.google.com/store/apps/details?id=com.homerr.app">
                         <!-- <img src="http://homerr.nl/wp-content/themes/homerr/images/google_play.png" /> -->
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/android_button.png" alt="Smiley face" height="90" width="280">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/home/google_btn_small.png" alt="Smiley face" height="90" width="280">
                     </a>
                 </div>
             </div>

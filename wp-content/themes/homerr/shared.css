@@ -23,7 +23,7 @@ header.entry-header {
 }
 
 .header-content, .header-content-area {
-    max-width: 650px;
+    max-width: 100%;
 }
 .header-content-area {
     max-width: 750px;
@@ -103,9 +103,9 @@ header.entry-header {
     margin-bottom: 120px;
 }
 .btn-default:hover {
-    color: #333;
+    color: white;
     background-color: #636784;
-    border-color: #adadad;
+    border-color: transparent;
 }
 .nav.navbar-nav.navbar-right > li:last-of-type a.active {
     border-bottom: 1px solid white;
@@ -230,19 +230,24 @@ header.entry-header {
     display: block;
     height: 60px; 
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .lineHeight {
     line-height: 2;
 }
 /*media button*/
+@media (max-width: 1750px) {
+    .header-content .wrapSmallTitle {
+        width: 65%;
+    }
+}
 
-@media (max-width: 1600px) {
-    .header-content h1 {
+@media (max-width: 1650px) {
+    .header-content h1, .header-content-area h1 {
         font-size: 45px;
     }
-    .header-content, .header-content-area {
-        max-width: 500px;
-        margin-top: 225px;
+    .header-content .wrapSmallTitle {
+        
     }
 }
 @media (max-width: 1460px) {
@@ -266,8 +271,8 @@ header.entry-header {
         font-size: 18px;
     }
     .header-content, .header-content-area {
-        max-width: 340px;
-        margin-top: 170px;
+        /* max-width: 340px;
+        margin-top: 170px; */
     }
     
 }
@@ -283,9 +288,16 @@ header.entry-header {
     }
 }
 @media (max-width: 1150px) {
-    
+    .header-content, .header-content-area {
+        margin-top: 160px;
+    }
 }
-@media (max-width: 1050px) {
+@media (max-width: 992px) {
+    .header-content, .header-content-area {
+        margin-top: 135px;
+    }
+}
+@media (max-width: 900px) {
     .white-small-title, .white-small-title-retailer {
         display: none;
     }

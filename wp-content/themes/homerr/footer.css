@@ -45,7 +45,7 @@
 }
 
 div.company-logo-single > .ups {
-    width: 100px;
+    width: 40%;
 }
 
 .company-logos-bottom {
@@ -110,11 +110,11 @@ div.company-logo-single > .ups {
 }
 .companies-logo-wrapper {
     padding-bottom: 20px;
-    opacity: 0.4;
+    opacity: 0.6;
 }
-.col-xs-5ths:first-child { 
+/* .col-xs-5ths:first-child { 
     max-width: 100px;
-}
+} */
 #footer {
     min-height: 600px;
 }
@@ -229,6 +229,7 @@ div.company-logo-single > .ups {
         margin-bottom: 50px;
     }
 }
+
 @media (max-width: 800px) {
     #lang_sel_footer {
         text-align: center;

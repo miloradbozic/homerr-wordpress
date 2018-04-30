@@ -1,11 +1,11 @@
 .phoneDiv {
     /* height: 720px;
     width: 400px; */
-    background-size: 370px;
+    background-size: 67%;
     height: 93%;
-    width: 30%;
-    margin-top: -390px;
-    margin-left: 59%;
+    width: 28%;
+    margin-top: -300px;
+    margin-left: 63%;
     /* border: 1px solid red; */
     position: absolute;
 }
@@ -158,6 +158,7 @@
 }
 .map-section .row-distanced {
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .map-section .map-panel {
@@ -267,50 +268,57 @@
 }
 
 /*media screan part*/
-@media (max-width: 1600px) {
+@media (max-width: 1800px) {
+    .phoneDiv {
+        margin-left: 69%;
+        background-size: 88%;
+        width: 22%;
+    }
+}    
+@media (max-width: 1750px) {
     .phoneDiv {
         margin-top: -320px;
-        background-size: 300px;
+    }
+}
+@media (max-width: 1650px) {
+    .phoneDiv {
+        margin-top: -300px;
+        margin-left: 65%;
     }
 }
 @media (max-width: 1460px) {
     .phoneDiv {
         margin-left: 64%;
+        margin-top: -240px;
     }
 }
 @media (max-width: 1300px) {
     .phoneDiv {
-        background-size: 250px;
-        margin-top: -300px;
+        margin-top: -240px;
     }
 }
 @media (max-width: 1200px) {
-    .phoneDiv {
-        background-size: 220px;
-        margin-top: -270px;
-    }
-    .header-content h1 {
-        font-size: 26px;
-    }
-    .section .heading .title {
-        font-size: 40px;
-    }
+    
 }
 @media (max-width: 1150px) {
     .phoneDiv {
-        background-size: 200px;
         margin-left: 67%;
+        margin-top: -190px;
+    }
+}
+@media (max-width: 1100px) {
+    .phoneDiv {
+        margin-left: 69%;
     }
 }
 @media (max-width: 1050px) {
     .phoneDiv {
-        background-size: 170px;
-        margin-left: 70%;
+        margin-left: 72%;
     }
 }
-@media (max-width: 1050px) {
+@media (max-width: 992px) {
     .phoneDiv {
-        display: none;
+        margin-left: 65%;
     }
 }
 @media screen and (max-width: 992px) {
@@ -336,6 +344,11 @@
     }
     .top30 {
         margin-top: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .phoneDiv {
+        display: none;
     }
 }
 @media (max-width: 800px) {
