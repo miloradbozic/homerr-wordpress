@@ -25,6 +25,14 @@
 #before-footer {
     background: none;
 }
+
+.ios {
+    background: url("images/home/ios_button.png") no-repeat center;
+}
+
+.android {
+    background: url("images/home/android_button.png") no-repeat center;
+}
 .imageApp {
     text-align: center;
 }
@@ -41,7 +49,6 @@
 }
 .imageApp span {
     font-size: 18px;
-    line-height: 2;
 }
 .wrapMobileScrean {
     padding-bottom: 150px;
