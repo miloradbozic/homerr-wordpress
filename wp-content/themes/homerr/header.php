@@ -56,6 +56,8 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-faq.css">
     <?php elseif ($post->ID == 732): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-worken.css">
+    <?php elseif ($post->ID == 864): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-pers.css">
     <?php elseif ($post->ID == 478): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-contact.css">
     <?php endif; ?>
