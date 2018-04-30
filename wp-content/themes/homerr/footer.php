@@ -70,8 +70,8 @@
                             }
                         ?>
                         <div class="social-icons socialIcons">
-                            <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/fb-icon.png" width="30" height="40" alt=""></a>
-                            <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/tw-icon.png" width="80" height="40" alt=""></a>
+                            <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/fb_black.png" width="30" height="40" alt=""></a>
+                            <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/tw_black.png" width="80" height="40" alt=""></a>
                         </div>
                     </div>
                     <div id="footer-sidebar2" class="col-md-3 textFooter">
