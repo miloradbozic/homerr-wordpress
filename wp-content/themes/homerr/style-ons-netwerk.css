@@ -1,6 +1,9 @@
 .sectionOnsNetwerk {
     margin-top: -150px;
 }
+.header-content p {
+    width: 80%
+}
 .wrapPunten {
     margin-top: 100px;
     margin-left: 5%;
@@ -49,6 +52,16 @@
 .servicePunten .text p {
     font-size: 18px;
 }
+@media (max-width: 1550px) {
+    .header-content, .header-content-area {
+        margin-top: 190px;
+    }
+}
+@media (max-width: 1250px) {
+    .header-content, .header-content-area {
+        margin-top: 165px;
+    }
+}
 @media (max-width: 1200px) {
     .wrapHead {
         padding-top: 0%;
@@ -67,5 +80,20 @@
     .servicePunten .text {
         padding-left: 0px;
         padding-right: 0px;
+    }
+}
+@media (max-width: 1100px) {
+    .header-content, .header-content-area {
+        margin-top: 130px;
+    }
+}
+@media (max-width: 992px) {
+    .header-content, .header-content-area {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 880px) {
+    .header-content p {
+        display: none;
     }
 }
