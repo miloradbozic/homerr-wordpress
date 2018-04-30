@@ -216,6 +216,7 @@ header.entry-header {
 }
 .wrapAppImages a {
     width: 200px;
+    background-size: 200px;
 }
 /* .wrapAppImages .ios {
     margin-right: 20px;
