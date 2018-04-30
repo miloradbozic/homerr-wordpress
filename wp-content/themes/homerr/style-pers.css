@@ -6,8 +6,9 @@
     width: 40%;
 }
 
-.container a {
+.container .work-links a {
     display: block;
+    padding: 6px;
 }
 
 @media (max-width: 700px) {
