@@ -15,7 +15,7 @@ header.entry-header {
     height: 37vw;
 }
 .header-content, .header-content-area {
-    margin-top: 265px;
+    margin-top: 225px;
 }
 .header-content-alternate {
     float: right;
@@ -283,7 +283,7 @@ header.entry-header {
         font-size: 40px;
     }
     .header-content, .header-content-area {
-        margin-top: 215px;
+        margin-top: 210px;
     }
     .section .content {
         font-size: 15px;
@@ -300,7 +300,7 @@ header.entry-header {
         font-size: 36px;
     }
     .header-content, .header-content-area {
-        margin-top: 210px;
+        margin-top: 205px;
     }
     
     .mixedSlider .blogTitle {
@@ -333,7 +333,7 @@ header.entry-header {
 }
 @media (max-width: 1150px) {
     .header-content, .header-content-area {
-        margin-top: 160px;
+        margin-top: 150px;
     }
 }
 @media (max-width: 992px) {

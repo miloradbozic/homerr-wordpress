@@ -21,8 +21,10 @@
 								<?php
 										echo '<h1 class="entry-title white-big-title">';
 										_e( 'Search Results Found For: ', 'homerr' );
+										echo '</h1>';
+										echo '<p class="white-medium-title">';
 										the_search_query();
-										echo '</h2>';
+										echo '</p>';
 								if (get_field('display_download_buttons', $faq_post_id)) {
 									appstore_buttons();
 								} ?>
