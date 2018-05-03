@@ -43,7 +43,7 @@
         <a class="btn-default">Demo aanvragen</a>
     </div>
     <div class="before-footer-wrapper">
-        <h1 class="section-title services-section-title footer-title colorTextGreen"><span>Meld</span> je vandaag nog <br/ >aan voor <span>HomerrM</span></h1>
+        <h1 class="section-title services-section-title footer-title colorTextGreen"><span>Meld</span> je vandaag nog aan voor <span>Homerr</span></h1>
     </div>
     <div class="before-footer-wrapper">
         <!-- <div class=container> -->

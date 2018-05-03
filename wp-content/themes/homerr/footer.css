@@ -95,11 +95,14 @@ div.company-logo-single > .ups {
 
 .before-footer-wrapper > .footer-title {
     font-size: 62px;
+    width: 40%;
+    margin: 0px auto;
     margin-bottom: 50px;
 }
 
 .before-footer-wrapper > .footer-title > span {
     color: black;
+    line-height: 1.3em;
 }
 
 .download-app {

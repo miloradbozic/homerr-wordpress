@@ -10,10 +10,10 @@ License: Private licence
 
 * {
 	/*font-size: 100%;*/
-	font-family: "Seravek", "Helvetica-Neue", sans-serif;
-	letter-spacing: 0.06em;
+	font-family: "AvenirNext", "Seravek", "Helvetica-Neue", sans-serif;
+	letter-spacing: 0.03em;
 	color: black;
-	line-height: 36px;
+	line-height: 2.2em;
 }
 
 h1,
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Seravek", "Helvetica-Neue", sans-serif;
+	font-family: "AvenirNext", "Seravek", "Helvetica-Neue", sans-serif;
 	font-weight: bold;
 	font-style: normal;
 }
@@ -53,7 +53,7 @@ p.big-p {
 /* Links */
 a,
 a img {
-	color: #666;
+	color: #000000;
 	transition: all 0.2s ease;
 	text-decoration: none;
 }
@@ -201,7 +201,7 @@ button.how-werk-cta-button:hover {
 }
 
 #footer .textwidget {
-	color: #666;
+	color: #000000;
 }
 
 .navbar-default .navbar-nav > li > a.active,
@@ -316,7 +316,7 @@ a.home-slider-button {
 .white-big-title,
 .white-big-title-retailer {
 	text-transform: uppercase;
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-weight: 700;
 	font-size: 35px;
 	color: #fff;
@@ -325,7 +325,7 @@ a.home-slider-button {
 
 .white-medium-title {
 	color: #fff;
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -333,7 +333,7 @@ a.home-slider-button {
 .white-small-title,
 .white-small-title-retailer {
 	color: #fff;
-	font-family: "Seravek";
+	font-family: "AvenirNext","Seravek";
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -439,7 +439,7 @@ p.benefits-description {
 
 .colored-title {
 	color: #398d8f;
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-weight: 500;
 }
 
@@ -458,7 +458,7 @@ p.benefits-description {
 	margin-top: 15px;
 	color: #3f9795;
 	font-weight: 500;
-	font-family: "Seravek", sans-serif;
+	font-family: "AvenirNext", "Seravek", sans-serif;
 }
 
 #prices-container {
@@ -486,7 +486,7 @@ p.benefits-description {
 .social-network-description,
 .services-description-text {
 	color: #ffffff;
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 18px;
 	font-weight: 400;
 	margin: 20px auto 0;
@@ -589,15 +589,15 @@ p.benefits-description {
 }
 
 .company-details-text {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 18px;
 	font-weight: 400;
-	color: #666666;
+	color: #000000;
 	margin-bottom: 20px;
 }
 
 .company-details-text span {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -693,11 +693,11 @@ p.benefits-description {
 
 .company-how-work-description-text {
 	display: inline-block;
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 18px;
 	font-weight: 400;
 	padding: 15px 0;
-	color: #666666;
+	color: #000000;
 	display: table-cell;
 }
 
@@ -799,20 +799,20 @@ textarea {
 }
 
 .package-types {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 36px;
 	font-weight: 700;
 }
 
 .package-text {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 22px;
 	font-weight: 400;
 	padding-top: 10px;
 }
 
 .package-price {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 36px;
 	font-weight: 700;
 	padding-top: 5px;
@@ -824,18 +824,18 @@ textarea {
 }
 
 .prices_description p {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 26px;
 	font-weight: 400;
 }
 
 .prices_description span {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-weight: 700;
 }
 
 .prices_notice {
-	font-family: "Seravek";
+	font-family: "AvenirNext", "Seravek";
 	font-size: 18px;
 	font-weight: 400;
 	color: #ffffff;
@@ -1262,7 +1262,7 @@ p.white-small-title br {
 .faq-page-content .nav-tabs > li.active > a {
 	border-color: transparent;
 	background-color: #eeeeee;
-	color: #666666;
+	color: #000000;
 }
 
 .faq-page-content .nav-tabs {
@@ -1292,7 +1292,7 @@ p.white-small-title br {
 	-moz-border-radius: 10px;
 	border-radius: 30px;
 	display: table;
-	color: #666666;
+	color: #000000;
 	font-size: 24px;
 }
 
@@ -1429,7 +1429,7 @@ span.wpcf7-not-valid-tip {
 		background: #FFFFFF;
 		border-radius: 30px;
 		display: table;
-		color: #666666;
+		color: #000000;
 	}
 
 	.bubble .bubble-content {

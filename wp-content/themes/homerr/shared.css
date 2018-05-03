@@ -32,7 +32,7 @@ header.entry-header {
     font-size: 60px;
 }
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .section .heading {
@@ -53,6 +53,11 @@ header.entry-header {
     font-weight: normal;
     margin: 0px auto;
 }
+
+.section .heading .title span {
+    line-height: 1.4em;
+}
+
 .section .emphasized{
     font-weight: bold;
 }
@@ -150,6 +155,7 @@ header.entry-header {
 }
 .mixedSlider .description {
     margin-left: 20px;
+    margin-right: 20px;
     height: 80px;
 }
 .mixedSlider .MS-content .item .imgTitle img {
