@@ -4,6 +4,11 @@
 .section {
     margin-bottom: 37%;
 }
+.sectionOverOns h1 {
+    text-align: center;
+    font-size: 48px;
+    color: black;
+}
 .sectionOverOns .subTitle {
     font-size: 36px;
     padding-top: 25px;
@@ -19,18 +24,22 @@
 .top-25 {
     margin-top: 25px;
 }
-.section .heading .headingTwo {
-    margin-top: 80px;
+.headingTwo {
+    margin-top: 120px;
 }
+
 .wrapParagraphs {
-    margin-top: 70px;
-    margin-bottom: 170px;
+    /* margin-top: 70px;
+    margin-bottom: 170px; */
 }
 .wrapParagraphs .col-md-5 {
     text-align: left;
 }
 .wrapParagraphs .col-md-2 {
     height: 80px;
+}
+.wrapParagraphs .heading {
+    margin-top: 70px
 }
 #before-footer {
     background: transparent;
@@ -40,4 +49,23 @@
 }
 .download-app {
     display: none;
+}
+.mapBackground {
+    background: url("images/home/home_city_bg.png") no-repeat center;
+    background-size: cover;
+	/*Added DM*/
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    padding-top: 0px;
+    position: relative;
+    z-index: 3;
+    min-height: 750px;
+    margin-bottom: 80px;
+}
+@media (max-width: 900px) {
+    .section .heading {
+        max-width: 100%;
+    }
 }
