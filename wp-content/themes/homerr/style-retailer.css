@@ -23,7 +23,7 @@
 }
 .wragINfoBtn {
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 #singleSlider h2 {
     color: black;
@@ -32,7 +32,7 @@
     display: flex;
     width: 86%;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 70px;
     flex-wrap: wrap-reverse;
 }
 
@@ -68,7 +68,15 @@
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
+.entry-content :last-child.section-retailer {
+    margin-top: 50px;
+}
+.entry-content :last-child.section-retailer .heading-narrow {
+    margin-top: 60px;
+}
+.section .centered {
+    margin-bottom: 90px;
+}
 #singleSlider .slider-wrapper .slider-text {
     /* margin-bottom: 100px; */
 }
@@ -84,6 +92,9 @@
 }
 .section-retailer h1 {
     margin-top: 70px;
+}
+.slider-section {
+    margin-top: 90px;
 }
 @media (max-width: 1720px) {
     .header-content, .header-content-area {
@@ -111,6 +122,15 @@
     #singleSlider .MS-content {
         width:100%;
         margin-bottom: 30px;
+    }
+    .section-retailer .heading {
+        max-width: 100%;
+    }
+    .section-retailer .heading-narrow h1 {
+        width: 100%;
+    }
+    #singleSlider .slider-wrapper {
+        width: 100%;
     }
 }
 @media (max-width: 767px) {

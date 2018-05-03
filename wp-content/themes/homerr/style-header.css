@@ -25,6 +25,7 @@
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 3px;
 }   
 /* .nav.navbar-nav.fR > li:last-of-type a { */
 .homeNetwerk li:last-child {
@@ -34,7 +35,7 @@
     padding: 0px 3px;
     margin-top: 7px;
     border: 1px solid;
-}  
+}
 .homeNetwerk li:first-child {
     display: none;
 }
