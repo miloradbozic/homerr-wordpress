@@ -336,6 +336,7 @@ a.home-slider-button {
 	font-family: "AvenirNext","Seravek";
 	font-size: 20px;
 	font-weight: 400;
+	line-height: 1.4em;
 }
 /*.white-small-title-retailer {
 	margin-bottom: 50px;
@@ -1199,7 +1200,7 @@ p.white-small-title br {
 }
 
 .company-logo-single img {
-	max-width: 100%;
+	width: 80%;
 }
 
 #how-work-workhomerr.how-work-workhomerr .hidden-content div {
@@ -2064,24 +2065,24 @@ span.wpcf7-not-valid-tip {
 }
 
 .col-xs-5ths {
-	width: 20%;
+	width: 33%;
 	float: left;
 }
 @media (min-width: 768px) {
 	.col-sm-5ths {
-		width: 20%;
+		width: 33%;
 		float: left;
 	}
 }
 @media (min-width: 992px) {
 	.col-md-5ths {
-		width: 20%;
+		width: 33%;
 		float: left;
 	}
 }
 @media (min-width: 1200px) {
 	.col-lg-5ths {
-		width: 20%;
+		width: 33%;
 		float: left;
 	}
 }

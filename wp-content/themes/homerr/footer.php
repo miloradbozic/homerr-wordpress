@@ -25,7 +25,7 @@
                 <div class="col-xs-5ths company-logo-single company-dhl">
                     <img class="ups" src="<?php echo get_template_directory_uri()?>/images/ups_logo.png"/>
                 </div>
-                <div class="col-xs-5ths company-logo-single company-dhl">
+                <div class="col-xs-5ths company-logo-single company-dpd">
                     <img src="<?php echo get_template_directory_uri()?>/images/dpd_logo.png" />
                 </div>
                 <div class="col-xs-5ths company-logo-single company-dhl" >
@@ -37,7 +37,7 @@
         
     </div>
     <div class="before-footer-wrapper retailer-footer-wrapper">
-        <h1 class="section-title services-section-title footer-title"><span class="emphasized-other emphasized">Vraag </span ><span class="emphasized">vandaag </span><span class="blackColorFont">nog </span><br/ ><span class="blackColorFont">een </span><span class="emphasized-other emphasized">demo </span><span class="blackColorFont">aan.</span></h1>
+        <h1 class="section-title services-section-title footer-title"><span class="emphasized-other emphasized">Vraag </span ><span class="emphasized">vandaag </span><span class="blackColorFont">nog </span> <span class="blackColorFont">een </span><span class="emphasized-other emphasized">demo </span><span class="blackColorFont">aan.</span></h1>
     </div>
     <div class="row wrapVraagInformationBtn retailer-link-button" style="margin-top: 60px;">
         <a class="btn-default">Demo aanvragen</a>
