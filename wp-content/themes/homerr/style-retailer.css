@@ -96,6 +96,43 @@
 .slider-section {
     margin-top: 90px;
 }
+.emphasized-other {
+   color: #34888A;
+}
+.btn-default {
+    border: 3px solid #34888A;
+}
+.slider-wrapper .active {
+    background: url(images/retailer/indicator_blue.png) no-repeat center !important;
+}
+.before-footer-wrapper h1 {
+    display: none;
+}
+.retailer-footer-wrapper h1 {
+    display: block;
+}
+.before-footer-wrapper .app-icons-campaign {
+    display: none;
+}
+#footer .widget-title {
+    color: #34888A!important;
+}
+.before-footer-wrapper > .footer-title > .emphasized-other {
+    color: #34888A;
+}
+.retailer-footer-wrapper {
+    display: block !important;
+}
+.blackColorFont {
+    color: black;
+    font-weight: normal;
+}
+.retailer-link-button .btn-default {
+    display: block !important;
+}
+#footer {
+    margin-top: 0px;
+}
 @media (max-width: 1720px) {
     .header-content, .header-content-area {
         margin-top: 240px;
