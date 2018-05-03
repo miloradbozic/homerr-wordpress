@@ -37,14 +37,19 @@
         
     </div>
     <div class="before-footer-wrapper retailer-footer-wrapper">
-        <h1 class="section-title services-section-title footer-title"><span class="emphasized-other emphasized">Vraag </span ><span class="emphasized">vandaag </span><span class="blackColorFont">nog </span> <span class="blackColorFont">een </span><span class="emphasized-other emphasized">demo </span><span class="blackColorFont">aan.</span></h1>
+        <h1 class="section-title services-section-title footer-title">
+        <?php _e( '<span class="emphasized-other emphasized">Vraag </span ><span class="emphasized">vandaag </span><span class="blackColorFont">nog </span> <span class="blackColorFont">een </span><span class="emphasized-other emphasized">demo </span><span class="blackColorFont">aan.</span>
+        ', 'homerr' ); ?>
+        </h1>
     </div>
     <div class="row wrapVraagInformationBtn retailer-link-button" style="margin-top: 60px;">
-        <a class="btn-default">Demo aanvragen</a>
+        <a class="btn-default"><?php _e( 'Demo aanvragen')?></a>
     </div>
     <div class="before-footer-wrapper">
-        <h1 class="section-title services-section-title footer-title colorTextGreen"><span>Meld</span> je vandaag nog aan voor <span>Homerr</span></h1>
-    </div>
+        <h1 class="section-title services-section-title footer-title colorTextGreen">
+        <?php _e( '<span>Meld</span> je vandaag nog aan voor <span>Homerr</span>') ?>
+        </h1>
+</div>
     <div class="before-footer-wrapper">
         <!-- <div class=container> -->
             <div class="app-icons-campaign footer-icons">
@@ -76,8 +81,8 @@
                             }
                         ?>
                         <div class="social-icons socialIcons">
-                            <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/fb_black.png" width="30" height="40" alt=""></a>
-                            <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/tw_black.png" width="80" height="40" alt=""></a>
+                            <a href="https://www.facebook.com/tryhomerr" class="facebook-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/fb_black.svg" width="30" height="40" alt=""></a>
+                            <a href="https:/www.twitter.com/tryhomerr" class="twitter-icon" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/home/tw_black.svg" width="80" height="40" alt=""></a>
                         </div>
                     </div>
                     <div id="footer-sidebar2" class="col-md-3 textFooter">
@@ -117,7 +122,7 @@
         <!-- </div> -->
     </div>
     <div class="footer-copyright text-center">
-        <div><span>Copyright Nucleus Group</span></div>
+        <div><span><?php _e( 'Copyright Nucleus Group', 'homerr' ); ?></span></div>
     </div>
     <!--wp_footer php tag -->
   </body>

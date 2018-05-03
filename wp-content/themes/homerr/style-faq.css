@@ -40,7 +40,7 @@
 }
 @media (min-width: 1200px) {
     .header-content h1, .header-content-area h1 {
-        margin-top: 250px;
+        /*margin-top: 250px;*/
     }
 }
 

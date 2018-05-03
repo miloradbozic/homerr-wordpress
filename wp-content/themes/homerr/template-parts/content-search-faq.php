@@ -16,7 +16,7 @@
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $faq_post_id ), 'single-post-thumbnail' ); ?>
 				<header class="entry-header entry-header-background" style="background-image: url('<?php echo $image[0]; ?>')">
 					<div class="container">
-						<div class="header-content-area">
+						<div class="header-content">
 							<div class="header-content-area-inner">
 								<?php
 										echo '<h1 class="entry-title white-big-title">';
