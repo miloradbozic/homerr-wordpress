@@ -17,21 +17,18 @@
       <a class="navbar-brand imgHeader" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/images/header-images/logo.png' ?>"/></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <?php if( !empty( $top_left_menu_items ) ) : ?>
-        <ul class="nav navbar-nav navbar-right fR">
-            
-            <?php foreach( $top_right_menu_items as $right_item ) : $right_active = $title == $right_item->title ? 'active' : ''; ?>
-                <li><a class="<?php echo $right_active;  echo 'rF' . $num++ ?>" href="<?php echo $right_item->url ?>"><?php echo $right_item->title ?></a></li>
-            <?php endforeach; ?>
-        </ul>
-      <?php endif; ?>
-      <?php if( !empty( $top_right_menu_items ) ) : ?>
+      <?php if( !empty( $top_right_menu_items && $top_left_menu_items) ) : ?>
        <ul class="nav navbar-nav navbar-right homeNetwerk">
        <?php foreach( $top_left_menu_items as $left_item ) : $left_active = $title == $left_item->title ? 'active' : '';  ?>
                 <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?></a></li>
             <?php endforeach; ?>
             <?php do_action('wpml_add_language_selector'); ?>
-      </ul>
+      
+            
+            <?php foreach( $top_right_menu_items as $right_item ) : $right_active = $title == $right_item->title ? 'active' : ''; ?>
+                <li><a class="<?php echo $right_active; ?>" href="<?php echo $right_item->url ?>"><?php echo $right_item->title ?></a></li>
+            <?php endforeach; ?>
+        </ul>
       <?php endif; ?>
     </div><!--/.nav-collapse -->
   </div>
