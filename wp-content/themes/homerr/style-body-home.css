@@ -1,7 +1,7 @@
 .phoneDiv {
     /* height: 720px;
     width: 400px; */
-    background-size: 67%;
+    background-size: 63%;
     height: 93%;
     width: 28%;
     margin-top: -300px;
@@ -14,7 +14,7 @@
 }
 .wrapDivApps span{
     color: black;
-    font-family: "Seravek";
+    font-family: "AvenirNext", "Seravek";
     font-size: 20px;
     font-weight: 600;
 }
@@ -45,8 +45,7 @@
 /*end of part one*/
 
 .section .content {
-    font-size: 18px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .section .sub-title {
@@ -79,12 +78,12 @@
 
 .image-container .image-title {
     color: white;
-    font-size: 32px;
+    font-size: 37px;
     font-weight: bold;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 36%;
+    transform: translate(-30%, -60%);
     z-index: 2;
 }
 
@@ -159,7 +158,7 @@
 }
 .map-section .heading {
     width: 32%;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 .map-section .row-distanced {
     margin-top: 40px;
@@ -178,6 +177,7 @@
 .map-section .map-panel .part .content{
     width: 70%;
     margin: 0px auto;
+    line-height: 1.4em;
 }
 
 .map-section .link {
