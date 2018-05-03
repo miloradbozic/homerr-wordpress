@@ -342,7 +342,7 @@
         display: none;
     }
     .slider-text {
-        display: none;
+        /* display: none; */
     }
 }
 @media (max-width: 991px) {
