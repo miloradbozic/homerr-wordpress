@@ -45,19 +45,27 @@
 }
 
 div.company-logo-single > .ups {
-    width: 40%;
+    width: 30%;
+    margin: 0px auto;
+    /*margin-left: 40%;*/
 }
 
 .company-logos-bottom {
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    margin: 0px auto;
 }
 
-.company-dhl {
+.company-dhl, .company-dpd {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.company-dpd {
+    margin-left: -10px;
 }
 
 .footer-icons {
@@ -165,10 +173,17 @@ div.company-logo-single > .ups {
 }
 #footer .textwidget {
     font-size: 20px;
+    line-height: 1.6em;
 }
 .textFooter li {
     font-size: 20px;
+    line-height: 1.6em;
 }
+.textFooter li a{
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
 #footer .facebook-icon img, #footer .twitter-icon img {
     max-width: 50px;
     margin-right: 20px;
@@ -230,6 +245,11 @@ div.company-logo-single > .ups {
 }
 .retailer-link-button .btn-default {
     display: none;
+}
+@media (max-width: 1600px) {
+    .before-footer-wrapper > .footer-title {
+        font-size: 50px;
+    }
 }
 @media (max-width: 1200px) {
     .before-footer-wrapper > .footer-title {

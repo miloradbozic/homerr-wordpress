@@ -257,6 +257,9 @@ header.entry-header {
     .header-content .wrapSmallTitle {
         
     }
+    .section .heading .title {
+        font-size: 40px;
+    }
 }
 @media (max-width: 1460px) {
     .header-content h1 {
