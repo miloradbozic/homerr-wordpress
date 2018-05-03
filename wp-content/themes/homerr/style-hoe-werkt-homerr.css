@@ -95,7 +95,9 @@
     margin-bottom: 50px
 }
 .imageText {
-    min-height: 100px;
+    min-height: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .demoAanvragen {
     margin-bottom: 100px;
@@ -105,6 +107,18 @@
 }
 .download-app {
     display: none;
+}
+@media (max-width: 1200px) {
+    .imageText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 1050px) {
+    .imageText {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 @media (max-width: 991px) {
     .wrapMobileScrean {
