@@ -58,9 +58,9 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
 <div class="wrapDivApps">
   <div class="wrapText">
   <span>
-    Download once gratis app
+    Download onze gratis app
   </span>
-  <span>ene meld ja ann als Homerr</span>
+  <span>en meld je aan als Homerr</span>
   </div>
   <div class="wrapAppImages">
     <a class="ios mobile" href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8"

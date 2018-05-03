@@ -13,6 +13,7 @@ License: Private licence
 	font-family: "Seravek", "Helvetica-Neue", sans-serif;
 	letter-spacing: 0.06em;
 	color: black;
+	line-height: 36px;
 }
 
 h1,
@@ -1090,6 +1091,7 @@ header.entry-header{
   display: table;
   width: 100%;
   height: 200px;
+  line-height: 30px;
 }
 
 header.entry-header.home-slider {

@@ -38,7 +38,9 @@
     -ms-flex-align: center;
     align-items: center;
 }
-
+.wrapDivApps .wrapText span {
+    line-height: 30px;
+}
 
 /*end of part one*/
 
