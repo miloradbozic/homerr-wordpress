@@ -4,10 +4,17 @@
     background-size: 63%;
     height: 93%;
     width: 28%;
-    margin-top: -300px;
+    margin-top: -270px;
     margin-left: 63%;
     /* border: 1px solid red; */
     position: absolute;
+}
+
+.ios {
+    background-image: url("images/home/apple_btn_small.png")
+}
+.android {
+    background-image: url("images/home/google_btn_small.png")
 }
 .wrapDivApps {
     margin-top: -70px;
@@ -15,8 +22,7 @@
 .wrapDivApps span{
     color: black;
     font-family: "AvenirNext", "Seravek";
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
 }
 .wrapDivApps .wrapText{
     display: -ms-flexbox;
@@ -51,6 +57,7 @@
 .section .sub-title {
     font-size: 30px;
     text-align: center;
+    line-height: 1.4em;
 }
 
 
@@ -305,7 +312,7 @@
 }
 @media (max-width: 1650px) {
     .phoneDiv {
-        margin-top: -300px;
+        margin-top: -270px;
         margin-left: 65%;
     }
 

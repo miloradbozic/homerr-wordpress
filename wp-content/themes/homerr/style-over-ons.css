@@ -64,6 +64,18 @@
     min-height: 750px;
     margin-bottom: 80px;
 }
+@media (max-width: 1650px) {
+    .sectionOverOns .subTitle {
+        font-size: 28px;
+        padding-top: 10px;
+        line-height: 1.4em;
+    }
+}
+@media (max-width: 1200px) {
+    .sectionOverOns .subTitle {
+        font-size: 20px;
+    }
+}
 @media (max-width: 900px) {
     .section .heading {
         max-width: 100%;

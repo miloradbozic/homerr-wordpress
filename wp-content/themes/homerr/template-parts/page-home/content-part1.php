@@ -39,14 +39,13 @@
 <?php if (has_post_thumbnail( $post->ID ) ): ?>
 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>  
 <header class="entry-header entry-header-background home-slider"
-style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/home-image-1.png')">
+style="background-image: url('<?php echo $image[0]; ?>')">
   <!-- <div class="flexHeader"> -->
     <div class="container">
       <div class="header-content">
-        <h1 class="entry-title white-big-title">De toekomst van pakketbezorging</h1>
+        <h1 class="entry-title white-big-title"><?php the_field('page_title_override') ?></h1>
         <div class="wrapSmallTitle">
-        <p class="white-small-title">One morning, when Gregor Samsa woke from troubled dreams,
-        he found himself transformed in his bed into a snail.</p>
+        <p class="white-small-title"><?php the_field('page_subtitle') ?></p>
         </div>
       </div>
       <div class="phoneDiv"
@@ -55,36 +54,5 @@ style="background-image: url('<?php echo get_template_directory_uri(); ?>/images
     </div>
   <!-- </div> -->
 </header>
-<div class="wrapDivApps">
-  <div class="wrapText">
-  <span>
-    Download onze gratis app
-  </span>
-  <span>en meld je aan als Homerr</span>
-  </div>
-  <div class="wrapAppImages">
-    <a class="ios mobile" href="https://itunes.apple.com/us/app/homerr/id1166169719?mt=8"
-style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/apple_btn_small.png')"></a>
-<div class="firstSpaceBetween"></div>
-    <a class="android mobile" href="https://play.google.com/store/apps/details?id=com.homerr.app"
-style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/google_btn_small.png')"></a>
-  </div>
-</div>
-<!-- <div class="col-md-3"></div>
-<div class="col-md-6">
-  <div class="col-md-12">
-    <div class="col-md-12"><span>Download once gratis app</span></div>
-    <div class="col-md-12"><span>ene meld ja ann als Homerr</span></div>
-    <div class="col-md-6">
-      <a class="ios mobile"
-      style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/ios_button.png')"></a>
-    </div>
-    <div class="col-md-6">
-      <a class="android mobile"
-      style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home/android_button.png')"></a>
-    </div>
-  </div>
-</div>
-<div class="col-md-3"></div> -->
  <?php endif; ?>
  <!--todo handle no post_thumbnail -->

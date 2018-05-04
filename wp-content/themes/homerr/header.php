@@ -50,17 +50,17 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-ons-netwerk.css">
     <?php elseif ($post->ID == 20 || $post->ID == 1216): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-hoe-werkt-homerr.css">
-    <?php elseif ($post->ID == 22): ?>
+    <?php elseif ($post->ID == 22 || $post->ID == 591):?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-over-ons.css">
     <?php elseif ($post->ID == 202 || $post->ID == 868): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-faq.css">
-    <?php elseif ($post->ID == 732): ?>
+    <?php elseif ($post->ID == 732 || $post->ID == 1685): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-worken.css">
-    <?php elseif ($post->ID == 864): ?>
+    <?php elseif ($post->ID == 864 || $post->ID == 1686): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-pers.css">
-    <?php elseif ($post->ID == 478): ?>
+    <?php elseif ($post->ID == 478 || $post->ID == 1449): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-contact.css">
-    <?php elseif ($post->ID == 1668): ?>
+    <?php elseif ($post->ID == 1668 || $post->ID == 1675): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-meer-weten.css">
     <?php endif; ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">

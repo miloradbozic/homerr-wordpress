@@ -197,8 +197,8 @@ div.company-logo-single > .ups {
 }
 
 #footer .social-icons {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 .iconsFlag {
     margin-top:20px;
@@ -259,16 +259,16 @@ div.company-logo-single > .ups {
         font-size: 44px;
     }
     .textFooter h3 {
-        font-size: 28px;
+        font-size: 30px;
     }
     #footer .textwidget {
-        font-size: 16px;
+        font-size: 18px;
     }
     .textFooter li {
-        font-size: 16px;
+        font-size: 18px;
     }
     .textFooter li a{
-        font-size: 16px;
+        font-size: 18px;
     }
     #lang_sel_footer ul li img {
         width: 70px;

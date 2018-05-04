@@ -57,10 +57,10 @@
         margin-top: 190px;
     }
     .buurtPunten .text p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .servicePunten .text p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 @media (max-width: 1250px) {
@@ -68,7 +68,7 @@
         margin-top: 165px;
     }
     .buurtPunten .text p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .servicePunten .text p {
         font-size: 16px;
