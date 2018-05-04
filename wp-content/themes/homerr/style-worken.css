@@ -15,7 +15,7 @@
     width: 70%;
 }
 .topBoldText {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .companies-logo-wrapper {
     display: none;
@@ -27,10 +27,13 @@
     display: none;
 }
 .site-main .entry-content {
-    padding-bottom: 0px;;
+    padding-bottom: 0px;
 }
 @media (max-width: 780px){
     .header-content, .header-content-area {
         margin-bottom: 0px;
+    }
+    .topBoldText {
+        margin-top: 0px;
     }
 }

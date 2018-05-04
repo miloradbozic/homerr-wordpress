@@ -30,6 +30,12 @@
             <?php endforeach; ?>
         </ul>
       <?php endif; ?>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only"><?php _e( 'Toggle navigation', 'homerr' ); ?></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
