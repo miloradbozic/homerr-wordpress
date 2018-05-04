@@ -15,7 +15,7 @@ header.entry-header {
     height: 37vw;
 }
 .header-content, .header-content-area {
-    margin-top: 265px;
+    margin-top: 225px;
 }
 .header-content-alternate {
     float: right;
@@ -151,12 +151,14 @@ header.entry-header {
 }
 .mixedSlider .blogTitle {
     margin-left: 20px;
+    font-size: 30px;
     color: black;
 }
 .mixedSlider .description {
     margin-left: 20px;
     margin-right: 20px;
     height: 80px;
+    font-size: 18px;
 }
 .mixedSlider .MS-content .item .imgTitle img {
     height: auto;
@@ -248,6 +250,17 @@ header.entry-header {
     .header-content .wrapSmallTitle {
         width: 65%;
     }
+
+    .section .content {
+        font-size: 18px;
+    }
+
+    .mixedSlider .blogTitle {
+        font-size: 28px;
+    }
+    .mixedSlider .description {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1650px) {
@@ -260,13 +273,26 @@ header.entry-header {
     .section .heading .title {
         font-size: 40px;
     }
+
+    .section .content {
+        font-size: 16px;
+    }
 }
 @media (max-width: 1460px) {
     .header-content h1 {
         font-size: 40px;
     }
     .header-content, .header-content-area {
-        margin-top: 215px;
+        margin-top: 210px;
+    }
+    .section .content {
+        font-size: 15px;
+    }
+    .mixedSlider .blogTitle {
+        font-size: 26px;
+    }
+    .mixedSlider .description {
+        font-size: 15px;
     }
 }
 @media (max-width: 1460px) {
@@ -274,7 +300,14 @@ header.entry-header {
         font-size: 36px;
     }
     .header-content, .header-content-area {
-        margin-top: 210px;
+        margin-top: 205px;
+    }
+    
+    .mixedSlider .blogTitle {
+        font-size: 24px;
+    }
+    .mixedSlider .description {
+        font-size: 14px;
     }
 }
 @media (max-width: 1300px) {
@@ -300,7 +333,7 @@ header.entry-header {
 }
 @media (max-width: 1150px) {
     .header-content, .header-content-area {
-        margin-top: 160px;
+        margin-top: 150px;
     }
 }
 @media (max-width: 992px) {

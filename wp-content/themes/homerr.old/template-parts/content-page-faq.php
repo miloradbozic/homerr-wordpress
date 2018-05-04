@@ -15,7 +15,7 @@
       <header class="entry-header entry-header-background search-page-header" style="background-image: url('<?php echo $image[0]; ?>')">
         <div class="container height-js">
           <div class="center-elements">
-            <div class="header-content-area">
+            <div class="header-content">
               <div class="header-content-area-inner">
                 <?php if (get_field('page_title_override')) {
                   echo '<h1 class="entry-title white-big-title">';

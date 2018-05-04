@@ -16,13 +16,15 @@
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $faq_post_id ), 'single-post-thumbnail' ); ?>
 				<header class="entry-header entry-header-background" style="background-image: url('<?php echo $image[0]; ?>')">
 					<div class="container">
-						<div class="header-content-area">
+						<div class="header-content">
 							<div class="header-content-area-inner">
 								<?php
 										echo '<h1 class="entry-title white-big-title">';
 										_e( 'Search Results Found For: ', 'homerr' );
+										echo '</h1>';
+										echo '<p class="white-medium-title">';
 										the_search_query();
-										echo '</h2>';
+										echo '</p>';
 								if (get_field('display_download_buttons', $faq_post_id)) {
 									appstore_buttons();
 								} ?>

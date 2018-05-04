@@ -121,7 +121,6 @@ div.company-logo-single > .ups {
 }
 .companies-logo-wrapper {
     padding-bottom: 20px;
-    opacity: 0.6;
 }
 /* .col-xs-5ths:first-child { 
     max-width: 100px;
@@ -188,6 +187,15 @@ div.company-logo-single > .ups {
     max-width: 50px;
     margin-right: 20px;
 }
+#footer .facebook-icon img {
+    width: 30px;
+    height: 40px;
+}
+#footer .twitter-icon img {
+    width: 80px;
+    height: 40px;
+}
+
 #footer .social-icons {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -248,13 +256,61 @@ div.company-logo-single > .ups {
 }
 @media (max-width: 1600px) {
     .before-footer-wrapper > .footer-title {
-        font-size: 50px;
+        font-size: 44px;
+    }
+    .textFooter h3 {
+        font-size: 28px;
+    }
+    #footer .textwidget {
+        font-size: 16px;
+    }
+    .textFooter li {
+        font-size: 16px;
+    }
+    .textFooter li a{
+        font-size: 16px;
+    }
+    #lang_sel_footer ul li img {
+        width: 70px;
+        height: 35px;
+    }
+    #footer .facebook-icon img {
+        width: 27px;
+        height: 36px;
+    }
+    #footer .twitter-icon img {
+        width: 72px;
+        height: 36px;
     }
 }
 @media (max-width: 1200px) {
     .before-footer-wrapper > .footer-title {
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 50px;
+    }
+    .textFooter h3 {
+        font-size: 28px;
+    }
+    #footer .textwidget {
+        font-size: 16px;
+    }
+    .textFooter li {
+        font-size: 16px;
+    }
+    .textFooter li a{
+        font-size: 16px;
+    }
+    #lang_sel_footer ul li img {
+        width: 60px;
+        height: 30px;
+    }
+    #footer .facebook-icon img {
+        width: 24px;
+        height: 32px;
+    }
+    #footer .twitter-icon img {
+        width: 64px;
+        height: 32px;
     }
 }
 

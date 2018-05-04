@@ -199,9 +199,9 @@ class WPML_Languages extends WPML_SP_And_PT_User {
 		$flag = $this->sitepress->get_flag( $lang_code );
 		if ( $flag->from_template ) {
 			$wp_upload_dir = wp_upload_dir();
-			$flag_url      = $wp_upload_dir['baseurl'] . '/flags/' . $flag->flag;
+			$flag_url      = $wp_upload_dir['baseurl'] . '/flags/' . $this->replace_extension($flag->flag, "svg");
 		} else {
-			$flag_url = ICL_PLUGIN_URL . '/res/flags/' . $flag->flag;
+			$flag_url = ICL_PLUGIN_URL . '/res/flags/' . $this->replace_extension($flag->flag, "svg");
 		}
 		$ls_language['country_flag_url'] = $flag_url;
 		$ls_language['active']           = $current_language === $lang_code ? '1' : 0;
@@ -282,6 +282,11 @@ class WPML_Languages extends WPML_SP_And_PT_User {
 				? substr( $query->query_vars['m'], 6, 2 ) : null );
 
 		return array( $year, $month, $day );
+	}
+
+	function replace_extension($filename, $new_extension) {
+		$info = pathinfo($filename);
+		return $info['filename'] . '.' . $new_extension;
 	}
 
 	/**
