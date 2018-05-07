@@ -35,6 +35,7 @@
 }
 .imageApp {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .imageApp img {
@@ -46,6 +47,7 @@
     font-weight: 400;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-weight: bold;
 }
 .imageApp span {
     font-size: 18px;
@@ -108,6 +110,15 @@
 .download-app {
     display: none;
 }
+
+@media (max-width: 1650px) {
+    .imageApp span {
+        font-size: 18px;
+    }
+    .webshopImage span {
+        font-size: 18px;
+    }
+}
 @media (max-width: 1200px) {
     .imageText {
         padding-left: 10px;
@@ -134,10 +145,16 @@
         float: none;
     }
 }
+@media (max-width: 767px) {
+    .webshopHeading .heading {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 486px) {
     .wrapAppImages .ios {
         width: 200px;
         margin-left: 40px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 }

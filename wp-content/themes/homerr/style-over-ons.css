@@ -70,6 +70,9 @@
         padding-top: 10px;
         line-height: 1.4em;
     }
+    .mapBackground .wrapParagraphs {
+        font-size: 18px;
+    }
 }
 @media (max-width: 1200px) {
     .sectionOverOns .subTitle {
