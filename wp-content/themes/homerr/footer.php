@@ -129,7 +129,7 @@
     <script>
         $( document ).ready(function() {
             if ( !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)) {
-                alert('Its Safari');
+                $(".footer-parent").style("css", "linear-gradient(to top right, #eae9e9 50%, transparent 50%) no-repeat top, linear-gradient(0deg, #eae9e9, #eae9e9) no-repeat bottom)");
             }
         });
     </script>
