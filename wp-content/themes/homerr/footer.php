@@ -127,10 +127,12 @@
     <!--wp_footer php tag -->
   </body>
     <script>
+        /*
         $( document ).ready(function() {
             if ( !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)) {
-                $(".footer-parent").css("background", "linear-gradient(to top right, #eae9e9 50%, transparent 50%) no-repeat top, linear-gradient(0deg, #eae9e9, #eae9e9) no-repeat bottom)");
+                alert('Its Safari');
             }
         });
+        */
     </script>
 </html>
