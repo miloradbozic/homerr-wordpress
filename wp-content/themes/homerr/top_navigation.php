@@ -56,7 +56,7 @@
       $(".navbar-default .navbar-toggle").css({"border-color": "transparent", "text-align": "center"});
       $(".closeBtn").addClass("imageCloseBtn");
       $("#closeBtn").css("display", "block");
-      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "space-around", "height": "100%"});
+      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "start", "height": "100%"});
     } else {
       console.log('desktop');
     }
