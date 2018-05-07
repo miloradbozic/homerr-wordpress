@@ -323,7 +323,7 @@
 @media (max-width: 1460px) {
     .phoneDiv {
         margin-left: 64%;
-        margin-top: -240px;
+        margin-top: -220px;
     }
 
     .image-container .image-title {
@@ -340,7 +340,7 @@
 }
 @media (max-width: 1300px) {
     .phoneDiv {
-        margin-top: -240px;
+        margin-top: -210px;
     }
 
     .map-section .heading {
