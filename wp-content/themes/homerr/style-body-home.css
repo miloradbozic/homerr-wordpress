@@ -373,6 +373,8 @@
 @media (max-width: 1100px) {
     .phoneDiv {
         margin-left: 69%;
+        background-size: 70%;
+        margin-top: -170px;
     }
 
     .image-container .image-title {
