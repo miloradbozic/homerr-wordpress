@@ -58,11 +58,11 @@ header.entry-header {
     line-height: 1.4em;
 }
 
-.section .emphasized{
+.emphasized{
     font-weight: bold;
 }
 
-.section .emphasized-alternate{
+.emphasized-alternate{
     color: #37b89f;
 }
 .section .content {
