@@ -89,7 +89,7 @@ div.company-logo-single > .ups {
     padding-top: 7.0em;
     padding-left: 7.5em;
     padding-bottom: 2em;
-    background: linear-gradient(to top right, #eae9e9 50%, transparent 50.5%) no-repeat top, /* bottom part */
+    background: linear-gradient(to top right, #eae9e9 50%, transparent 50%) no-repeat top, /* bottom part */
     linear-gradient(0deg, #eae9e9, #eae9e9) no-repeat bottom;
     /* top portion */
     background-size: 100% 12em, 100% calc(100% - 12em);
@@ -103,13 +103,12 @@ div.company-logo-single > .ups {
 
 .before-footer-wrapper > .footer-title {
     font-size: 62px;
-    width: 40%;
+    width: 44%;
     margin: 0px auto;
     margin-bottom: 50px;
 }
 
-.before-footer-wrapper > .footer-title > span {
-    color: black;
+.before-footer-wrapper > .footer-title span {
     line-height: 1.3em;
 }
 

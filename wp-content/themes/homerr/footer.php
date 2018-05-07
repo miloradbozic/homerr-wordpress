@@ -126,4 +126,13 @@
     </div>
     <!--wp_footer php tag -->
   </body>
+    <script>
+        /*
+        $( document ).ready(function() {
+            if ( !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)) {
+                alert('Its Safari');
+            }
+        });
+        */
+    </script>
 </html>
