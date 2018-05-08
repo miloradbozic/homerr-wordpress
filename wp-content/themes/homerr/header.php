@@ -62,6 +62,8 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-contact.css">
     <?php elseif ($post->ID == 1668 || $post->ID == 1675): ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-meer-weten.css">
+    <?php elseif ($post->ID == 480 || $post->ID == 480): ?>
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-privacybeleid.css">
     <?php endif; ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/footer.css">
 </head>

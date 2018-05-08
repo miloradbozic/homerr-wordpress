@@ -171,13 +171,17 @@
     #singleSlider p {
         font-size: 18px;
     }
+    .section .halved {
+        width: 60%;
+    }
 }
 @media (max-width: 1150px) {
     #singleSlider h2 {
         font-size: 22px;
     }
     #singleSlider p {
-        font-size: 13px;
+        font-size: 18px;
+        /* font-size: 13px; */
     }
 }
 @media (max-width: 994px) {

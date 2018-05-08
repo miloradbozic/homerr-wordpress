@@ -1,0 +1,8 @@
+.header-content, .header-content-area {
+    margin-top: 40px;
+}
+@media (max-width: 1200px) {
+    .header-content, .header-content-area {
+        margin-top: -25px;
+    }
+}

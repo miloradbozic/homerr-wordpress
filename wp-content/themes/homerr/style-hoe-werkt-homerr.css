@@ -144,6 +144,9 @@
     .peopleImg {
         float: none;
     }
+    .header-content p {
+        display: none;
+    }
 }
 @media (max-width: 767px) {
     .webshopHeading .heading {

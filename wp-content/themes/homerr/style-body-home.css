@@ -331,11 +331,11 @@
     }
 
     .image-container .image-description {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .slider-wrapper .slider-text {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 @media (max-width: 1300px) {

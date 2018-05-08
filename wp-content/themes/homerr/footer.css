@@ -291,13 +291,13 @@ div.company-logo-single > .ups {
         font-size: 28px;
     }
     #footer .textwidget {
-        font-size: 16px;
+        font-size: 18px;
     }
     .textFooter li {
-        font-size: 16px;
+        font-size: 18px;
     }
     .textFooter li a{
-        font-size: 16px;
+        font-size: 18px;
     }
     #lang_sel_footer ul li img {
         width: 60px;
@@ -311,8 +311,23 @@ div.company-logo-single > .ups {
         width: 64px;
         height: 32px;
     }
+    .homeNetwerk li:nth-child(5) {
+        width: 98.5%;
+    }
 }
-
+@media (max-width: 992px) {
+    .homeNetwerk li:nth-child(5) {
+        width: 98%;
+    }
+}
+@media (max-width: 767px) {
+    .homeNetwerk li:nth-child(5) {
+        width: 100%;
+    }
+    .header-content-area, .header-content-area-campaign {
+        min-height: 250px;
+    }
+}
 @media (max-width: 800px) {
     #lang_sel_footer {
         text-align: center;

@@ -59,6 +59,7 @@
       $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "start", "height": "100%"});
     } else {
       console.log('desktop');
+      $('.homeNetwerk button').css("display", "none");
     }
   }
 
