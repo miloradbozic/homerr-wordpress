@@ -28,7 +28,7 @@
             <?php foreach( $top_right_menu_items as $right_item ) : $right_active = $title == $right_item->title ? 'active' : ''; ?>
                 <li><a class="<?php echo $right_active; ?>" href="<?php echo $right_item->url ?>"><?php echo $right_item->title ?></a></li>
             <?php endforeach; ?>
-            <div>
+            <div class="wrapCloseMobileButon">
               <button id="closeBtn" type="button" class="navbar-toggle collapsed closeBtn"  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="hideNavbar()">
             </div>
         </ul>
@@ -50,13 +50,13 @@
       $(".navbar-collapse").addClass("mobileNavHeight");
       $(".navbar-default .navbar-nav>li>a").css({"text-align": "center", "text-transform": "uppercase", "font-size": "30px", "line-height": "1em", "color": "black"});
       $(".navbar-default .navbar-nav>li").css({"margin-bottom": "5%"});
-      $(".navbar-default .navbar-nav>li>a").removeClass('active');
+      // $(".navbar-default .navbar-nav>li>a").removeClass('active');
       $(".nav.navbar-nav.navbar-right > li:last-of-type a").css({"margin-left": "0px"});
       $(".homeNetwerk li:last-child").css({"border": "0px solid"});
       $(".navbar-default .navbar-toggle").css({"border-color": "transparent", "text-align": "center"});
       $(".closeBtn").addClass("imageCloseBtn");
       $("#closeBtn").css("display", "block");
-      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "start", "height": "100%"});
+      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "space-between", "height": "100vh"});
     } else {
       console.log('desktop');
       $('.homeNetwerk button').css("display", "none");
