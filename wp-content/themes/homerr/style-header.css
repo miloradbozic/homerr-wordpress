@@ -83,7 +83,7 @@
 .wrapCloseMobileButon {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .imageCloseBtn {
     background: url("images/header-images/x-btn.png") no-repeat center;
