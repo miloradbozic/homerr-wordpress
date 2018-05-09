@@ -20,7 +20,10 @@
       <?php if( !empty( $top_right_menu_items && $top_left_menu_items) ) : ?>
        <ul class="nav navbar-nav navbar-right homeNetwerk">
        <?php foreach( $top_left_menu_items as $left_item ) : $left_active = $title == $left_item->title ? 'active' : '';  ?>
+       <?php if ($left_item->title == "Home" && $title == "Homerr | sociaal logistiek netwerk") $left_active = 'active';?>
+       
                 <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?></a></li>
+              
             <?php endforeach; ?>
             
       
@@ -57,6 +60,7 @@
       $(".closeBtn").addClass("imageCloseBtn");
       $("#closeBtn").css("display", "block");
       $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "space-between", "height": "100vh"});
+      $(".active").css("color", "#37b89f");
     } else {
       console.log('desktop');
       $('.homeNetwerk button').css("display", "none");
