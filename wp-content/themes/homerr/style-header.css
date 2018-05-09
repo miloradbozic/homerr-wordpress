@@ -78,12 +78,11 @@
     padding-top: 0px;
 }
 .mobileNavHeight {
-    height: 100vh;
+    height: 100%;
 }
 .wrapCloseMobileButon {
     display: flex;
     justify-content: center;
-    height: 180px;
 }
 .imageCloseBtn {
     background: url("images/header-images/x-btn.png") no-repeat center;
