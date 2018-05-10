@@ -65,3 +65,8 @@
         width: 67%;
     }
 }
+@media (max-width: 767px) {
+    .header-content-area, .header-content-area-campaign {
+        min-height: 120px!important;
+    }
+}

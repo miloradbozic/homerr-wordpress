@@ -216,6 +216,7 @@
 }
 @media (max-width: 767px) {
     .header-content, .header-content-area {
-        margin-top: 30px;
+        margin-top: 60px;
+        margin-bottom: 100px;
     }
 }
