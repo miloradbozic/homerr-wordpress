@@ -22,7 +22,7 @@
        <?php foreach( $top_left_menu_items as $left_item ) : $left_active = $title == $left_item->title ? 'active' : '';  ?>
        <?php if ($left_item->title == "Home" && $title == "Homerr | sociaal logistiek netwerk") $left_active = 'active';?>
        
-                <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?>123</a></li>
+                <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?></a></li>
               
             <?php endforeach; ?>
             
@@ -52,7 +52,7 @@
       $(".navbar-collapse").css({"max-height": "none", "background": "white", "opacity": "1"});
       $(".navbar-collapse").addClass("mobileNavHeight");
       $(".navbar-default .navbar-nav>li>a").css({"text-align": "center", "text-transform": "uppercase", "font-size": "30px", "line-height": "1em", "color": "black"});
-      $(".navbar-default .navbar-nav>li, div").css({"margin-bottom": "5%"});
+      $(".navbar-default .navbar-nav>li, div").css({"margin-bottom": "7%"});
       // $(".navbar-default .navbar-nav>li>a").removeClass('active');
       $(".nav.navbar-nav.navbar-right > li:last-of-type a").css({"margin-left": "0px"});
       $(".homeNetwerk li:last-child").css({"border": "0px solid"});
