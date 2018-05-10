@@ -52,14 +52,14 @@
       $(".navbar-collapse").css({"max-height": "none", "background": "white", "opacity": "1"});
       $(".navbar-collapse").addClass("mobileNavHeight");
       $(".navbar-default .navbar-nav>li>a").css({"text-align": "center", "text-transform": "uppercase", "font-size": "30px", "line-height": "1em", "color": "black"});
-      // $(".navbar-default .navbar-nav>li").css({"margin-bottom": "5%"});
+      $(".navbar-default .navbar-nav>li, div").css({"margin-bottom": "7%"});
       // $(".navbar-default .navbar-nav>li>a").removeClass('active');
       $(".nav.navbar-nav.navbar-right > li:last-of-type a").css({"margin-left": "0px"});
       $(".homeNetwerk li:last-child").css({"border": "0px solid"});
       $(".navbar-default .navbar-toggle").css({"border-color": "transparent", "text-align": "center"});
       $(".closeBtn").addClass("imageCloseBtn");
       $("#closeBtn").css("display", "block");
-      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "space-between", "height": "100vh"});
+      $(".homeNetwerk").css({"display": "flex", "flex-direction": "column", "justify-content": "start", "height": "100vh"});
       $(".active").css("color", "#37b89f");
     } else {
       console.log('desktop');
