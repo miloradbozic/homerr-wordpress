@@ -52,7 +52,7 @@
       $(".navbar-collapse").css({"max-height": "none", "background": "white", "opacity": "1"});
       $(".navbar-collapse").addClass("mobileNavHeight");
       $(".navbar-default .navbar-nav>li>a").css({"text-align": "center", "text-transform": "uppercase", "font-size": "30px", "line-height": "1em", "color": "black"});
-      $(".navbar-default .navbar-nav>li, div").css({"margin-bottom": "7%"});
+      $(".navbar-default .navbar-nav>li, div").css({"margin-bottom": "5%"});
       // $(".navbar-default .navbar-nav>li>a").removeClass('active');
       $(".nav.navbar-nav.navbar-right > li:last-of-type a").css({"margin-left": "0px"});
       $(".homeNetwerk li:last-child").css({"border": "0px solid"});
