@@ -22,7 +22,7 @@
        <?php foreach( $top_left_menu_items as $left_item ) : $left_active = $title == $left_item->title ? 'active' : '';  ?>
        <?php if ($left_item->title == "Home" && $title == "Homerr | sociaal logistiek netwerk") $left_active = 'active';?>
        
-                <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?></a></li>
+                <li><a class="<?php echo $left_active; ?> " href="<?php echo $left_item->url ?>"><?php echo $left_item->title ?>123</a></li>
               
             <?php endforeach; ?>
             
