@@ -122,7 +122,7 @@
         <!-- </div> -->
     </div>
     <div class="footer-copyright text-center">
-        <div><span><?php _e( 'Copyright Nucleus Group', 'homerr' ); ?></span></div>
+        <div><span><?php _e( 'Ontwikkeld door <a target="_blank" href=" https://www.nucleus.group/">Nucleus Group</a>', 'homerr' ); ?></span></div>
     </div>
     <!--wp_footer php tag -->
   </body>

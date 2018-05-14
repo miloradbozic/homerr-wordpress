@@ -253,6 +253,12 @@ div.company-logo-single > .ups {
 .retailer-link-button .btn-default {
     display: none;
 }
+.footer-copyright a {
+    color: white;
+}
+.footer-copyright a:hover {
+    color: #bfbfbf;
+}
 @media (max-width: 1600px) {
     .before-footer-wrapper > .footer-title {
         font-size: 44px;
