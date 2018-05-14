@@ -38,7 +38,7 @@
       src="https://www.facebook.com/tr?id=1682710452043162&ev=PageView&noscript=1"
       /></noscript>
     <!-- End Facebook Pixel Code -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php
       $post = $wp_query->post;
     ?>
