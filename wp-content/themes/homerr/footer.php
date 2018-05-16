@@ -43,7 +43,7 @@
         </h1>
     </div>
     <div class="row wrapVraagInformationBtn retailer-link-button" style="margin-top: 60px;">
-        <a class="btn-default"><?php _e( 'Demo aanvragen')?></a>
+        <a class="btn-default" href="/contact"><?php _e( 'Demo aanvragen')?></a>
     </div>
     <div class="before-footer-wrapper">
         <h1 class="section-title services-section-title footer-title colorTextGreen">
